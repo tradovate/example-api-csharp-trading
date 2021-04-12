@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="105.1.0" />
+    <PackageReference Include="WebSocket4Net" Version="0.15.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Tradovate.MarketData.Services">
+      <HintPath>..\services-md-api\src\Tradovate.MarketData.Services\bin\Debug\Tradovate.MarketData.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Tradovate.Services">
+      <HintPath>..\services-api\src\Tradovate.Services\bin\Debug\Tradovate.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
