@@ -118,7 +118,7 @@ namespace Tradovate
                     // ContractLibrary.PrepopulateCache();
 
                     Thread.Sleep(3000);
-                    var symbol = "ESM0";
+                    var symbol = "ESM1";
                     Log.Write($"SHOW {symbol} SPECIFICATIONS");
                     ContractLibrary.ContractSpec(symbol);
 
