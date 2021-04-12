@@ -590,7 +590,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contractldependents"></a>
 # **ContractLDependents**
-> List<Contract> ContractLDependents (List<int?> masterids)
+> List<Contract> ContractLDependents (List<long?> masterids)
 
 
 
@@ -612,7 +612,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var masterids = new List<int?>(); // List<int?> | ids of ContractMaturity entities
+            var masterids = new List<long?>(); // List<long?> | ids of ContractMaturity entities
 
             try
             {
@@ -632,7 +632,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of ContractMaturity entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of ContractMaturity entities | 
 
 ### Return type
 

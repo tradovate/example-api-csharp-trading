@@ -33,7 +33,7 @@ namespace Tradovate.Services.Model
         /// Initializes a new instance of the <see cref="GetProductFeeParams" /> class.
         /// </summary>
         /// <param name="productIds">productIds (required).</param>
-        public GetProductFeeParams(List<int?> productIds = default(List<int?>))
+        public GetProductFeeParams(List<long?> productIds = default(List<long?>))
         {
             // to ensure "productIds" is required (not null)
             if (productIds == null)
@@ -50,7 +50,7 @@ namespace Tradovate.Services.Model
         /// Gets or Sets ProductIds
         /// </summary>
         [DataMember(Name="productIds", EmitDefaultValue=false)]
-        public List<int?> ProductIds { get; set; }
+        public List<long?> ProductIds { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object

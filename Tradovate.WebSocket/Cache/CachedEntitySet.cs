@@ -7,8 +7,8 @@ namespace Tradovate.Services.Cache
     class CachedEntitySet
     {
         private ConcurrentDictionary<string, JObject> ByName = new ConcurrentDictionary<string, JObject>();
-        private ConcurrentDictionary<int, JObject> ById = new ConcurrentDictionary<int, JObject>();
-        private ConcurrentDictionary<int, ConcurrentDictionary<int, JObject>> ByMasterId = new ConcurrentDictionary<int, ConcurrentDictionary<int, JObject>>();
+        private ConcurrentDictionary<long, JObject> ById = new ConcurrentDictionary<long, JObject>();
+        private ConcurrentDictionary<long, ConcurrentDictionary<long, JObject>> ByMasterId = new ConcurrentDictionary<long, ConcurrentDictionary<long, JObject>>();
         private EntityCacheSpec EntityCacheSpec;
 
         public CachedEntitySet(EntityCacheSpec EntityCacheSpec)
@@ -23,7 +23,7 @@ namespace Tradovate.Services.Cache
             return ByName.TryGetValue(name, out entity);
         }
 
-        public bool TryGet(int id, out JObject entity)
+        public bool TryGet(long id, out JObject entity)
         {
             return ById.TryGetValue(id, out entity);
         }
@@ -38,10 +38,10 @@ namespace Tradovate.Services.Cache
             return list;
         }
 
-        public JArray GetDeps(int masterId)
+        public JArray GetDeps(long masterId)
         {
             var result = new JArray();
-            ConcurrentDictionary<int, JObject> collection;
+            ConcurrentDictionary<long, JObject> collection;
             if (ByMasterId.TryGetValue(masterId, out collection))
             {
                 foreach (var entity in collection.Values)
@@ -52,10 +52,10 @@ namespace Tradovate.Services.Cache
             return result;
         }
 
-        public JArray GetLDeps(List<int> masterIds)
+        public JArray GetLDeps(List<long> masterIds)
         {
             var result = new JArray();
-            ConcurrentDictionary<int, JObject> collection;
+            ConcurrentDictionary<long, JObject> collection;
             foreach (var masterId in masterIds)
             {
                 if (ByMasterId.TryGetValue(masterId, out collection))
@@ -69,15 +69,15 @@ namespace Tradovate.Services.Cache
             return result;
         }
 
-        void UpdateMasterCollection(int id, JObject entity)
+        void UpdateMasterCollection(long id, JObject entity)
         {
             if (EntityCacheSpec.MasterField != null)
             {
-                int masterId = entity.Value<int>(EntityCacheSpec.MasterField);
-                ConcurrentDictionary<int, JObject> collection;
+                long masterId = entity.Value<long>(EntityCacheSpec.MasterField);
+                ConcurrentDictionary<long, JObject> collection;
                 if (EntityCacheSpec.IsPreloaded)
                 {
-                    collection = ByMasterId.GetOrAdd(masterId, new ConcurrentDictionary<int, JObject>());
+                    collection = ByMasterId.GetOrAdd(masterId, new ConcurrentDictionary<long, JObject>());
                 }
                 else
                 {
@@ -90,12 +90,12 @@ namespace Tradovate.Services.Cache
             }
         }
 
-        void DeleteFromMasterCollection(int id, JObject entity)
+        void DeleteFromMasterCollection(long id, JObject entity)
         {
             if (EntityCacheSpec.MasterField != null)
             {
-                int masterId = entity.Value<int>(EntityCacheSpec.MasterField);
-                ConcurrentDictionary<int, JObject> collection;
+                long masterId = entity.Value<long>(EntityCacheSpec.MasterField);
+                ConcurrentDictionary<long, JObject> collection;
                 if (ByMasterId.TryGetValue(masterId, out collection))
                 {
                     collection.TryRemove(id, out entity);
@@ -105,7 +105,7 @@ namespace Tradovate.Services.Cache
 
         public void Update(string eventType, JObject entity)
         {
-            var id = entity.Value<int>("id");
+            var id = entity.Value<long>("id");
             var name = entity["name"];
             switch (eventType)
             {

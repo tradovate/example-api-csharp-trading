@@ -599,7 +599,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="commandreportldependents"></a>
 # **CommandReportLDependents**
-> List<CommandReport> CommandReportLDependents (List<int?> masterids)
+> List<CommandReport> CommandReportLDependents (List<long?> masterids)
 
 
 
@@ -621,7 +621,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Command entities
+            var masterids = new List<long?>(); // List<long?> | ids of Command entities
 
             try
             {
@@ -641,7 +641,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Command entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Command entities | 
 
 ### Return type
 
@@ -955,7 +955,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="executionreportldependents"></a>
 # **ExecutionReportLDependents**
-> List<ExecutionReport> ExecutionReportLDependents (List<int?> masterids)
+> List<ExecutionReport> ExecutionReportLDependents (List<long?> masterids)
 
 
 
@@ -977,7 +977,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Command entities
+            var masterids = new List<long?>(); // List<long?> | ids of Command entities
 
             try
             {
@@ -997,7 +997,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Command entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Command entities | 
 
 ### Return type
 

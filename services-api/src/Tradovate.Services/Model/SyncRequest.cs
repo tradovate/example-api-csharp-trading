@@ -35,7 +35,7 @@ namespace Tradovate.Services.Model
         /// <param name="users">users.</param>
         /// <param name="accounts">accounts.</param>
         /// <param name="splitResponses">splitResponses.</param>
-        public SyncRequest(List<int?> users = default(List<int?>), List<int?> accounts = default(List<int?>), bool? splitResponses = default(bool?))
+        public SyncRequest(List<long?> users = default(List<long?>), List<long?> accounts = default(List<long?>), bool? splitResponses = default(bool?))
         {
             this.Users = users;
             this.Accounts = accounts;
@@ -46,13 +46,13 @@ namespace Tradovate.Services.Model
         /// Gets or Sets Users
         /// </summary>
         [DataMember(Name="users", EmitDefaultValue=false)]
-        public List<int?> Users { get; set; }
+        public List<long?> Users { get; set; }
 
         /// <summary>
         /// Gets or Sets Accounts
         /// </summary>
         [DataMember(Name="accounts", EmitDefaultValue=false)]
-        public List<int?> Accounts { get; set; }
+        public List<long?> Accounts { get; set; }
 
         /// <summary>
         /// Gets or Sets SplitResponses

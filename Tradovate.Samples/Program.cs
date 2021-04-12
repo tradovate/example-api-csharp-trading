@@ -16,7 +16,7 @@ namespace Tradovate
     class Program
     {
         static string AccessToken;
-        static int MyUserId;
+        static long MyUserId;
         static string MyUsername, MyPassword;
         static string DemoUrl, LiveUrl;
 
@@ -85,7 +85,7 @@ namespace Tradovate
             Accounting.ShowAccountActivities(account);
 
             var feesApi = new FeesApi();
-            var availablePlans = feesApi.GetAllTradovateSubscriptionPlans();
+            var availablePlans = feesApi.TradovateSubscriptionPlanList();
             foreach (var plan in availablePlans)
             {
                 Console.WriteLine(plan);

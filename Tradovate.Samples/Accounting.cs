@@ -13,7 +13,7 @@ namespace Tradovate
 {
     class Accounting
     {
-        public static Account GetAccount(int myUserId)
+        public static Account GetAccount(long myUserId)
         {
             var apiInstance = new AccountingApi();
             var result = apiInstance.AccountList();

@@ -221,7 +221,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of ContractMaturity entities</param>
         /// <returns>List&lt;Contract&gt;</returns>
-        List<Contract> ContractLDependents (List<int?> masterids);
+        List<Contract> ContractLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -232,7 +232,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of ContractMaturity entities</param>
         /// <returns>ApiResponse of List&lt;Contract&gt;</returns>
-        ApiResponse<List<Contract>> ContractLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<Contract>> ContractLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -1168,7 +1168,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of ContractMaturity entities</param>
         /// <returns>Task of List&lt;Contract&gt;</returns>
-        System.Threading.Tasks.Task<List<Contract>> ContractLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<Contract>> ContractLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -1179,7 +1179,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of ContractMaturity entities</param>
         /// <returns>Task of ApiResponse (List&lt;Contract&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Contract>>> ContractLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<Contract>>> ContractLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -3319,7 +3319,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of ContractMaturity entities</param>
         /// <returns>List&lt;Contract&gt;</returns>
-        public List<Contract> ContractLDependents (List<int?> masterids)
+        public List<Contract> ContractLDependents (List<long?> masterids)
         {
              ApiResponse<List<Contract>> localVarResponse = ContractLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -3331,7 +3331,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of ContractMaturity entities</param>
         /// <returns>ApiResponse of List&lt;Contract&gt;</returns>
-        public ApiResponse< List<Contract> > ContractLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<Contract> > ContractLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -3390,7 +3390,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of ContractMaturity entities</param>
         /// <returns>Task of List&lt;Contract&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Contract>> ContractLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<Contract>> ContractLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<Contract>> localVarResponse = await ContractLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -3403,7 +3403,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of ContractMaturity entities</param>
         /// <returns>Task of ApiResponse (List&lt;Contract&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Contract>>> ContractLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Contract>>> ContractLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)

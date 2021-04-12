@@ -177,6 +177,7 @@ paths:
           type: array
           items:
             type: integer
+            format: int64
       tags:
       - ContractLibrary
       responses:
@@ -1362,6 +1363,7 @@ paths:
           type: array
           items:
             type: integer
+            format: int64
       tags:
       - Orders
       responses:
@@ -1504,6 +1506,7 @@ paths:
           type: array
           items:
             type: integer
+            format: int64
       tags:
       - Orders
       responses:
@@ -9204,6 +9207,7 @@ components:
           type: array
           items:
             type: integer
+            format: int64
     GetSecondMarketDataSubscriptionCost:
       type: object
       required:
@@ -11141,10 +11145,12 @@ components:
           type: array
           items:
             type: integer
+            format: int64
         accounts:
           type: array
           items:
             type: integer
+            format: int64
         splitResponses:
           type: boolean
     TakeAlertSignalOwnership:

@@ -92,8 +92,8 @@ namespace Tradovate.Services.Cache
                         case "item":
                             if (queryParameters.StartsWith("id="))
                             {
-                                int id;
-                                if (int.TryParse(queryParameters.Substring(3), out id))
+                                long id;
+                                if (long.TryParse(queryParameters.Substring(3), out id))
                                 {
                                     JObject entity;
                                     if (cachedEntitySet.TryGet(id, out entity))
@@ -130,7 +130,7 @@ namespace Tradovate.Services.Cache
                             {
                                 if (queryParameters.StartsWith("masterids="))
                                 {
-                                    var masterIds = queryParameters.Substring(10).Split(',').Select(strId => int.Parse(strId)).ToList();
+                                    var masterIds = queryParameters.Substring(10).Split(',').Select(strId => long.Parse(strId)).ToList();
                                     response = cachedEntitySet.GetLDeps(masterIds);
                                     return true;
                                 }
