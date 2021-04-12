@@ -157,7 +157,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contractmarginitems"></a>
 # **ContractMarginItems**
-> List<ContractMargin> ContractMarginItems (List<int?> ids)
+> List<ContractMargin> ContractMarginItems (List<long?> ids)
 
 
 
@@ -179,7 +179,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -199,7 +199,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -217,7 +217,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contractmarginldependents"></a>
 # **ContractMarginLDependents**
-> List<ContractMargin> ContractMarginLDependents (List<int?> masterids)
+> List<ContractMargin> ContractMarginLDependents (List<long?> masterids)
 
 
 
@@ -239,7 +239,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Contract entities
+            var masterids = new List<long?>(); // List<long?> | ids of Contract entities
 
             try
             {
@@ -259,7 +259,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Contract entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Contract entities | 
 
 ### Return type
 
@@ -513,7 +513,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="productmarginitems"></a>
 # **ProductMarginItems**
-> List<ProductMargin> ProductMarginItems (List<int?> ids)
+> List<ProductMargin> ProductMarginItems (List<long?> ids)
 
 
 
@@ -535,7 +535,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -555,7 +555,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -573,7 +573,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="productmarginldependents"></a>
 # **ProductMarginLDependents**
-> List<ProductMargin> ProductMarginLDependents (List<int?> masterids)
+> List<ProductMargin> ProductMarginLDependents (List<long?> masterids)
 
 
 
@@ -595,7 +595,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Product entities
+            var masterids = new List<long?>(); // List<long?> | ids of Product entities
 
             try
             {
@@ -615,7 +615,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Product entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Product entities | 
 
 ### Return type
 
@@ -869,7 +869,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="useraccountautoliqitems"></a>
 # **UserAccountAutoLiqItems**
-> List<UserAccountAutoLiq> UserAccountAutoLiqItems (List<int?> ids)
+> List<UserAccountAutoLiq> UserAccountAutoLiqItems (List<long?> ids)
 
 
 
@@ -891,7 +891,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -911,7 +911,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -929,7 +929,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="useraccountautoliqldependents"></a>
 # **UserAccountAutoLiqLDependents**
-> List<UserAccountAutoLiq> UserAccountAutoLiqLDependents (List<int?> masterids)
+> List<UserAccountAutoLiq> UserAccountAutoLiqLDependents (List<long?> masterids)
 
 
 
@@ -951,7 +951,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Account entities
+            var masterids = new List<long?>(); // List<long?> | ids of Account entities
 
             try
             {
@@ -971,7 +971,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Account entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Account entities | 
 
 ### Return type
 
@@ -1285,7 +1285,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="useraccountpositionlimititems"></a>
 # **UserAccountPositionLimitItems**
-> List<UserAccountPositionLimit> UserAccountPositionLimitItems (List<int?> ids)
+> List<UserAccountPositionLimit> UserAccountPositionLimitItems (List<long?> ids)
 
 
 
@@ -1307,7 +1307,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1327,7 +1327,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1345,7 +1345,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="useraccountpositionlimitldependents"></a>
 # **UserAccountPositionLimitLDependents**
-> List<UserAccountPositionLimit> UserAccountPositionLimitLDependents (List<int?> masterids)
+> List<UserAccountPositionLimit> UserAccountPositionLimitLDependents (List<long?> masterids)
 
 
 
@@ -1367,7 +1367,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Account entities
+            var masterids = new List<long?>(); // List<long?> | ids of Account entities
 
             try
             {
@@ -1387,7 +1387,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Account entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Account entities | 
 
 ### Return type
 
@@ -1645,7 +1645,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="useraccountriskparameteritems"></a>
 # **UserAccountRiskParameterItems**
-> List<UserAccountRiskParameter> UserAccountRiskParameterItems (List<int?> ids)
+> List<UserAccountRiskParameter> UserAccountRiskParameterItems (List<long?> ids)
 
 
 
@@ -1667,7 +1667,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1687,7 +1687,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1705,7 +1705,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="useraccountriskparameterldependents"></a>
 # **UserAccountRiskParameterLDependents**
-> List<UserAccountRiskParameter> UserAccountRiskParameterLDependents (List<int?> masterids)
+> List<UserAccountRiskParameter> UserAccountRiskParameterLDependents (List<long?> masterids)
 
 
 
@@ -1727,7 +1727,7 @@ namespace Example
         {
 
             var apiInstance = new RisksApi();
-            var masterids = new List<int?>(); // List<int?> | ids of UserAccountPositionLimit entities
+            var masterids = new List<long?>(); // List<long?> | ids of UserAccountPositionLimit entities
 
             try
             {
@@ -1747,7 +1747,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of UserAccountPositionLimit entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of UserAccountPositionLimit entities | 
 
 ### Return type
 

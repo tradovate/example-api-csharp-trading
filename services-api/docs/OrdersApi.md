@@ -67,8 +67,6 @@ Method | HTTP request | Description
 
 
 
- ## Make a request to cancel an order.
-
 ### Example
 ```csharp
 using System;
@@ -243,7 +241,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="commanditems"></a>
 # **CommandItems**
-> List<Command> CommandItems (List<int?> ids)
+> List<Command> CommandItems (List<long?> ids)
 
 
 
@@ -265,7 +263,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -285,7 +283,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -303,7 +301,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="commandldependents"></a>
 # **CommandLDependents**
-> List<Command> CommandLDependents (List<int?> masterids)
+> List<Command> CommandLDependents (List<long?> masterids)
 
 
 
@@ -325,7 +323,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Order entities
+            var masterids = new List<long?>(); // List<long?> | ids of Order entities
 
             try
             {
@@ -345,7 +343,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Order entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Order entities | 
 
 ### Return type
 
@@ -539,7 +537,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="commandreportitems"></a>
 # **CommandReportItems**
-> List<CommandReport> CommandReportItems (List<int?> ids)
+> List<CommandReport> CommandReportItems (List<long?> ids)
 
 
 
@@ -561,7 +559,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -581,7 +579,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -895,7 +893,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="executionreportitems"></a>
 # **ExecutionReportItems**
-> List<ExecutionReport> ExecutionReportItems (List<int?> ids)
+> List<ExecutionReport> ExecutionReportItems (List<long?> ids)
 
 
 
@@ -917,7 +915,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -937,7 +935,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1313,7 +1311,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="fillfeeitems"></a>
 # **FillFeeItems**
-> List<FillFee> FillFeeItems (List<int?> ids)
+> List<FillFee> FillFeeItems (List<long?> ids)
 
 
 
@@ -1335,7 +1333,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1355,7 +1353,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1373,7 +1371,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="fillfeeldependents"></a>
 # **FillFeeLDependents**
-> List<FillFee> FillFeeLDependents (List<int?> masterids)
+> List<FillFee> FillFeeLDependents (List<long?> masterids)
 
 
 
@@ -1395,7 +1393,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Fill entities
+            var masterids = new List<long?>(); // List<long?> | ids of Fill entities
 
             try
             {
@@ -1415,7 +1413,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Fill entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Fill entities | 
 
 ### Return type
 
@@ -1549,7 +1547,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="fillitems"></a>
 # **FillItems**
-> List<Fill> FillItems (List<int?> ids)
+> List<Fill> FillItems (List<long?> ids)
 
 
 
@@ -1571,7 +1569,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1591,7 +1589,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1609,7 +1607,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="fillldependents"></a>
 # **FillLDependents**
-> List<Fill> FillLDependents (List<int?> masterids)
+> List<Fill> FillLDependents (List<long?> masterids)
 
 
 
@@ -1631,7 +1629,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Order entities
+            var masterids = new List<long?>(); // List<long?> | ids of Order entities
 
             try
             {
@@ -1651,7 +1649,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Order entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Order entities | 
 
 ### Return type
 
@@ -2077,7 +2075,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderitems"></a>
 # **OrderItems**
-> List<Order> OrderItems (List<int?> ids)
+> List<Order> OrderItems (List<long?> ids)
 
 
 
@@ -2099,7 +2097,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -2119,7 +2117,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2137,7 +2135,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderldependents"></a>
 # **OrderLDependents**
-> List<Order> OrderLDependents (List<int?> masterids)
+> List<Order> OrderLDependents (List<long?> masterids)
 
 
 
@@ -2159,7 +2157,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Account entities
+            var masterids = new List<long?>(); // List<long?> | ids of Account entities
 
             try
             {
@@ -2179,7 +2177,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Account entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Account entities | 
 
 ### Return type
 
@@ -2373,7 +2371,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderstrategyitems"></a>
 # **OrderStrategyItems**
-> List<OrderStrategy> OrderStrategyItems (List<int?> ids)
+> List<OrderStrategy> OrderStrategyItems (List<long?> ids)
 
 
 
@@ -2395,7 +2393,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -2415,7 +2413,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2433,7 +2431,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderstrategyldependents"></a>
 # **OrderStrategyLDependents**
-> List<OrderStrategy> OrderStrategyLDependents (List<int?> masterids)
+> List<OrderStrategy> OrderStrategyLDependents (List<long?> masterids)
 
 
 
@@ -2455,7 +2453,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Account entities
+            var masterids = new List<long?>(); // List<long?> | ids of Account entities
 
             try
             {
@@ -2475,7 +2473,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Account entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Account entities | 
 
 ### Return type
 
@@ -2613,7 +2611,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderstrategylinkitems"></a>
 # **OrderStrategyLinkItems**
-> List<OrderStrategyLink> OrderStrategyLinkItems (List<int?> ids)
+> List<OrderStrategyLink> OrderStrategyLinkItems (List<long?> ids)
 
 
 
@@ -2635,7 +2633,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -2655,7 +2653,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2673,7 +2671,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderstrategylinkldependents"></a>
 # **OrderStrategyLinkLDependents**
-> List<OrderStrategyLink> OrderStrategyLinkLDependents (List<int?> masterids)
+> List<OrderStrategyLink> OrderStrategyLinkLDependents (List<long?> masterids)
 
 
 
@@ -2695,7 +2693,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of OrderStrategy entities
+            var masterids = new List<long?>(); // List<long?> | ids of OrderStrategy entities
 
             try
             {
@@ -2715,7 +2713,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of OrderStrategy entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of OrderStrategy entities | 
 
 ### Return type
 
@@ -2965,7 +2963,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderversionitems"></a>
 # **OrderVersionItems**
-> List<OrderVersion> OrderVersionItems (List<int?> ids)
+> List<OrderVersion> OrderVersionItems (List<long?> ids)
 
 
 
@@ -2987,7 +2985,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -3007,7 +3005,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -3025,7 +3023,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderversionldependents"></a>
 # **OrderVersionLDependents**
-> List<OrderVersion> OrderVersionLDependents (List<int?> masterids)
+> List<OrderVersion> OrderVersionLDependents (List<long?> masterids)
 
 
 
@@ -3047,7 +3045,7 @@ namespace Example
         {
 
             var apiInstance = new OrdersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Order entities
+            var masterids = new List<long?>(); // List<long?> | ids of Order entities
 
             try
             {
@@ -3067,7 +3065,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Order entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Order entities | 
 
 ### Return type
 

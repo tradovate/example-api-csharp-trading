@@ -116,7 +116,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;ContractGroup&gt;</returns>
-        List<ContractGroup> ContractGroupItems (List<int?> ids);
+        List<ContractGroup> ContractGroupItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -127,7 +127,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;ContractGroup&gt;</returns>
-        ApiResponse<List<ContractGroup>> ContractGroupItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<ContractGroup>> ContractGroupItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -200,7 +200,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Contract&gt;</returns>
-        List<Contract> ContractItems (List<int?> ids);
+        List<Contract> ContractItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -211,7 +211,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Contract&gt;</returns>
-        ApiResponse<List<Contract>> ContractItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<Contract>> ContractItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -284,7 +284,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;ContractMaturity&gt;</returns>
-        List<ContractMaturity> ContractMaturityItems (List<int?> ids);
+        List<ContractMaturity> ContractMaturityItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -295,7 +295,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;ContractMaturity&gt;</returns>
-        ApiResponse<List<ContractMaturity>> ContractMaturityItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<ContractMaturity>> ContractMaturityItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -305,7 +305,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>List&lt;ContractMaturity&gt;</returns>
-        List<ContractMaturity> ContractMaturityLDependents (List<int?> masterids);
+        List<ContractMaturity> ContractMaturityLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -316,7 +316,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>ApiResponse of List&lt;ContractMaturity&gt;</returns>
-        ApiResponse<List<ContractMaturity>> ContractMaturityLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<ContractMaturity>> ContractMaturityLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -391,7 +391,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Currency&gt;</returns>
-        List<Currency> CurrencyItems (List<int?> ids);
+        List<Currency> CurrencyItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -402,7 +402,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Currency&gt;</returns>
-        ApiResponse<List<Currency>> CurrencyItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<Currency>> CurrencyItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -473,7 +473,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;CurrencyRate&gt;</returns>
-        List<CurrencyRate> CurrencyRateItems (List<int?> ids);
+        List<CurrencyRate> CurrencyRateItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -484,7 +484,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;CurrencyRate&gt;</returns>
-        ApiResponse<List<CurrencyRate>> CurrencyRateItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<CurrencyRate>> CurrencyRateItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -494,7 +494,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Currency entities</param>
         /// <returns>List&lt;CurrencyRate&gt;</returns>
-        List<CurrencyRate> CurrencyRateLDependents (List<int?> masterids);
+        List<CurrencyRate> CurrencyRateLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -505,7 +505,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Currency entities</param>
         /// <returns>ApiResponse of List&lt;CurrencyRate&gt;</returns>
-        ApiResponse<List<CurrencyRate>> CurrencyRateLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<CurrencyRate>> CurrencyRateLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -599,7 +599,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Exchange&gt;</returns>
-        List<Exchange> ExchangeItems (List<int?> ids);
+        List<Exchange> ExchangeItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -610,7 +610,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Exchange&gt;</returns>
-        ApiResponse<List<Exchange>> ExchangeItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<Exchange>> ExchangeItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -746,7 +746,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Product&gt;</returns>
-        List<Product> ProductItems (List<int?> ids);
+        List<Product> ProductItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -757,7 +757,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Product&gt;</returns>
-        ApiResponse<List<Product>> ProductItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<Product>> ProductItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -767,7 +767,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Exchange entities</param>
         /// <returns>List&lt;Product&gt;</returns>
-        List<Product> ProductLDependents (List<int?> masterids);
+        List<Product> ProductLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -778,7 +778,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Exchange entities</param>
         /// <returns>ApiResponse of List&lt;Product&gt;</returns>
-        ApiResponse<List<Product>> ProductLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<Product>> ProductLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -849,7 +849,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;ProductSession&gt;</returns>
-        List<ProductSession> ProductSessionItems (List<int?> ids);
+        List<ProductSession> ProductSessionItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -860,7 +860,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;ProductSession&gt;</returns>
-        ApiResponse<List<ProductSession>> ProductSessionItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<ProductSession>> ProductSessionItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -870,7 +870,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>List&lt;ProductSession&gt;</returns>
-        List<ProductSession> ProductSessionLDependents (List<int?> masterids);
+        List<ProductSession> ProductSessionLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -881,7 +881,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>ApiResponse of List&lt;ProductSession&gt;</returns>
-        ApiResponse<List<ProductSession>> ProductSessionLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<ProductSession>> ProductSessionLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -956,7 +956,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;SpreadDefinition&gt;</returns>
-        List<SpreadDefinition> SpreadDefinitionItems (List<int?> ids);
+        List<SpreadDefinition> SpreadDefinitionItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -967,7 +967,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;SpreadDefinition&gt;</returns>
-        ApiResponse<List<SpreadDefinition>> SpreadDefinitionItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<SpreadDefinition>> SpreadDefinitionItemsWithHttpInfo (List<long?> ids);
         #endregion Synchronous Operations
         #region Asynchronous Operations
         /// <summary>
@@ -1063,7 +1063,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;ContractGroup&gt;</returns>
-        System.Threading.Tasks.Task<List<ContractGroup>> ContractGroupItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<ContractGroup>> ContractGroupItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1074,7 +1074,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;ContractGroup&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<ContractGroup>>> ContractGroupItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<ContractGroup>>> ContractGroupItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1147,7 +1147,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Contract&gt;</returns>
-        System.Threading.Tasks.Task<List<Contract>> ContractItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<Contract>> ContractItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1158,7 +1158,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Contract&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Contract>>> ContractItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<Contract>>> ContractItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1231,7 +1231,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;ContractMaturity&gt;</returns>
-        System.Threading.Tasks.Task<List<ContractMaturity>> ContractMaturityItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<ContractMaturity>> ContractMaturityItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1242,7 +1242,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;ContractMaturity&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<ContractMaturity>>> ContractMaturityItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<ContractMaturity>>> ContractMaturityItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1252,7 +1252,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>Task of List&lt;ContractMaturity&gt;</returns>
-        System.Threading.Tasks.Task<List<ContractMaturity>> ContractMaturityLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<ContractMaturity>> ContractMaturityLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -1263,7 +1263,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>Task of ApiResponse (List&lt;ContractMaturity&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<ContractMaturity>>> ContractMaturityLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<ContractMaturity>>> ContractMaturityLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -1338,7 +1338,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Currency&gt;</returns>
-        System.Threading.Tasks.Task<List<Currency>> CurrencyItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<Currency>> CurrencyItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1349,7 +1349,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Currency&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Currency>>> CurrencyItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<Currency>>> CurrencyItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1420,7 +1420,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;CurrencyRate&gt;</returns>
-        System.Threading.Tasks.Task<List<CurrencyRate>> CurrencyRateItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<CurrencyRate>> CurrencyRateItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1431,7 +1431,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;CurrencyRate&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<CurrencyRate>>> CurrencyRateItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<CurrencyRate>>> CurrencyRateItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1441,7 +1441,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Currency entities</param>
         /// <returns>Task of List&lt;CurrencyRate&gt;</returns>
-        System.Threading.Tasks.Task<List<CurrencyRate>> CurrencyRateLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<CurrencyRate>> CurrencyRateLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -1452,7 +1452,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Currency entities</param>
         /// <returns>Task of ApiResponse (List&lt;CurrencyRate&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<CurrencyRate>>> CurrencyRateLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<CurrencyRate>>> CurrencyRateLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -1546,7 +1546,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Exchange&gt;</returns>
-        System.Threading.Tasks.Task<List<Exchange>> ExchangeItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<Exchange>> ExchangeItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1557,7 +1557,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Exchange&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Exchange>>> ExchangeItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<Exchange>>> ExchangeItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1693,7 +1693,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Product&gt;</returns>
-        System.Threading.Tasks.Task<List<Product>> ProductItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<Product>> ProductItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1704,7 +1704,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Product&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Product>>> ProductItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<Product>>> ProductItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1714,7 +1714,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Exchange entities</param>
         /// <returns>Task of List&lt;Product&gt;</returns>
-        System.Threading.Tasks.Task<List<Product>> ProductLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<Product>> ProductLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -1725,7 +1725,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Exchange entities</param>
         /// <returns>Task of ApiResponse (List&lt;Product&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Product>>> ProductLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<Product>>> ProductLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -1796,7 +1796,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;ProductSession&gt;</returns>
-        System.Threading.Tasks.Task<List<ProductSession>> ProductSessionItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<ProductSession>> ProductSessionItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1807,7 +1807,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;ProductSession&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<ProductSession>>> ProductSessionItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<ProductSession>>> ProductSessionItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1817,7 +1817,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>Task of List&lt;ProductSession&gt;</returns>
-        System.Threading.Tasks.Task<List<ProductSession>> ProductSessionLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<ProductSession>> ProductSessionLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -1828,7 +1828,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>Task of ApiResponse (List&lt;ProductSession&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<ProductSession>>> ProductSessionLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<ProductSession>>> ProductSessionLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -1903,7 +1903,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;SpreadDefinition&gt;</returns>
-        System.Threading.Tasks.Task<List<SpreadDefinition>> SpreadDefinitionItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<SpreadDefinition>> SpreadDefinitionItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -1914,7 +1914,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;SpreadDefinition&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<SpreadDefinition>>> SpreadDefinitionItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<SpreadDefinition>>> SpreadDefinitionItemsAsyncWithHttpInfo (List<long?> ids);
         #endregion Asynchronous Operations
     }
 
@@ -2604,7 +2604,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;ContractGroup&gt;</returns>
-        public List<ContractGroup> ContractGroupItems (List<int?> ids)
+        public List<ContractGroup> ContractGroupItems (List<long?> ids)
         {
              ApiResponse<List<ContractGroup>> localVarResponse = ContractGroupItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -2616,7 +2616,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;ContractGroup&gt;</returns>
-        public ApiResponse< List<ContractGroup> > ContractGroupItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<ContractGroup> > ContractGroupItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -2675,7 +2675,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;ContractGroup&gt;</returns>
-        public async System.Threading.Tasks.Task<List<ContractGroup>> ContractGroupItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<ContractGroup>> ContractGroupItemsAsync (List<long?> ids)
         {
              ApiResponse<List<ContractGroup>> localVarResponse = await ContractGroupItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -2688,7 +2688,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;ContractGroup&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<ContractGroup>>> ContractGroupItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<ContractGroup>>> ContractGroupItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -3176,7 +3176,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Contract&gt;</returns>
-        public List<Contract> ContractItems (List<int?> ids)
+        public List<Contract> ContractItems (List<long?> ids)
         {
              ApiResponse<List<Contract>> localVarResponse = ContractItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -3188,7 +3188,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Contract&gt;</returns>
-        public ApiResponse< List<Contract> > ContractItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<Contract> > ContractItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -3247,7 +3247,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Contract&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Contract>> ContractItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<Contract>> ContractItemsAsync (List<long?> ids)
         {
              ApiResponse<List<Contract>> localVarResponse = await ContractItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -3260,7 +3260,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Contract&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Contract>>> ContractItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Contract>>> ContractItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -3748,7 +3748,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;ContractMaturity&gt;</returns>
-        public List<ContractMaturity> ContractMaturityItems (List<int?> ids)
+        public List<ContractMaturity> ContractMaturityItems (List<long?> ids)
         {
              ApiResponse<List<ContractMaturity>> localVarResponse = ContractMaturityItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -3760,7 +3760,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;ContractMaturity&gt;</returns>
-        public ApiResponse< List<ContractMaturity> > ContractMaturityItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<ContractMaturity> > ContractMaturityItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -3819,7 +3819,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;ContractMaturity&gt;</returns>
-        public async System.Threading.Tasks.Task<List<ContractMaturity>> ContractMaturityItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<ContractMaturity>> ContractMaturityItemsAsync (List<long?> ids)
         {
              ApiResponse<List<ContractMaturity>> localVarResponse = await ContractMaturityItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -3832,7 +3832,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;ContractMaturity&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<ContractMaturity>>> ContractMaturityItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<ContractMaturity>>> ContractMaturityItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -3891,7 +3891,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>List&lt;ContractMaturity&gt;</returns>
-        public List<ContractMaturity> ContractMaturityLDependents (List<int?> masterids)
+        public List<ContractMaturity> ContractMaturityLDependents (List<long?> masterids)
         {
              ApiResponse<List<ContractMaturity>> localVarResponse = ContractMaturityLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -3903,7 +3903,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>ApiResponse of List&lt;ContractMaturity&gt;</returns>
-        public ApiResponse< List<ContractMaturity> > ContractMaturityLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<ContractMaturity> > ContractMaturityLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -3962,7 +3962,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>Task of List&lt;ContractMaturity&gt;</returns>
-        public async System.Threading.Tasks.Task<List<ContractMaturity>> ContractMaturityLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<ContractMaturity>> ContractMaturityLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<ContractMaturity>> localVarResponse = await ContractMaturityLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -3975,7 +3975,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>Task of ApiResponse (List&lt;ContractMaturity&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<ContractMaturity>>> ContractMaturityLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<ContractMaturity>>> ContractMaturityLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -4475,7 +4475,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Currency&gt;</returns>
-        public List<Currency> CurrencyItems (List<int?> ids)
+        public List<Currency> CurrencyItems (List<long?> ids)
         {
              ApiResponse<List<Currency>> localVarResponse = CurrencyItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -4487,7 +4487,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Currency&gt;</returns>
-        public ApiResponse< List<Currency> > CurrencyItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<Currency> > CurrencyItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -4546,7 +4546,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Currency&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Currency>> CurrencyItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<Currency>> CurrencyItemsAsync (List<long?> ids)
         {
              ApiResponse<List<Currency>> localVarResponse = await CurrencyItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -4559,7 +4559,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Currency&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Currency>>> CurrencyItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Currency>>> CurrencyItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -5035,7 +5035,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;CurrencyRate&gt;</returns>
-        public List<CurrencyRate> CurrencyRateItems (List<int?> ids)
+        public List<CurrencyRate> CurrencyRateItems (List<long?> ids)
         {
              ApiResponse<List<CurrencyRate>> localVarResponse = CurrencyRateItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -5047,7 +5047,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;CurrencyRate&gt;</returns>
-        public ApiResponse< List<CurrencyRate> > CurrencyRateItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<CurrencyRate> > CurrencyRateItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -5106,7 +5106,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;CurrencyRate&gt;</returns>
-        public async System.Threading.Tasks.Task<List<CurrencyRate>> CurrencyRateItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<CurrencyRate>> CurrencyRateItemsAsync (List<long?> ids)
         {
              ApiResponse<List<CurrencyRate>> localVarResponse = await CurrencyRateItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -5119,7 +5119,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;CurrencyRate&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<CurrencyRate>>> CurrencyRateItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<CurrencyRate>>> CurrencyRateItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -5178,7 +5178,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Currency entities</param>
         /// <returns>List&lt;CurrencyRate&gt;</returns>
-        public List<CurrencyRate> CurrencyRateLDependents (List<int?> masterids)
+        public List<CurrencyRate> CurrencyRateLDependents (List<long?> masterids)
         {
              ApiResponse<List<CurrencyRate>> localVarResponse = CurrencyRateLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -5190,7 +5190,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Currency entities</param>
         /// <returns>ApiResponse of List&lt;CurrencyRate&gt;</returns>
-        public ApiResponse< List<CurrencyRate> > CurrencyRateLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<CurrencyRate> > CurrencyRateLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -5249,7 +5249,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Currency entities</param>
         /// <returns>Task of List&lt;CurrencyRate&gt;</returns>
-        public async System.Threading.Tasks.Task<List<CurrencyRate>> CurrencyRateLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<CurrencyRate>> CurrencyRateLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<CurrencyRate>> localVarResponse = await CurrencyRateLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -5262,7 +5262,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Currency entities</param>
         /// <returns>Task of ApiResponse (List&lt;CurrencyRate&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<CurrencyRate>>> CurrencyRateLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<CurrencyRate>>> CurrencyRateLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -5893,7 +5893,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Exchange&gt;</returns>
-        public List<Exchange> ExchangeItems (List<int?> ids)
+        public List<Exchange> ExchangeItems (List<long?> ids)
         {
              ApiResponse<List<Exchange>> localVarResponse = ExchangeItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -5905,7 +5905,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Exchange&gt;</returns>
-        public ApiResponse< List<Exchange> > ExchangeItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<Exchange> > ExchangeItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -5964,7 +5964,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Exchange&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Exchange>> ExchangeItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<Exchange>> ExchangeItemsAsync (List<long?> ids)
         {
              ApiResponse<List<Exchange>> localVarResponse = await ExchangeItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -5977,7 +5977,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Exchange&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Exchange>>> ExchangeItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Exchange>>> ExchangeItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -6910,7 +6910,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Product&gt;</returns>
-        public List<Product> ProductItems (List<int?> ids)
+        public List<Product> ProductItems (List<long?> ids)
         {
              ApiResponse<List<Product>> localVarResponse = ProductItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -6922,7 +6922,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Product&gt;</returns>
-        public ApiResponse< List<Product> > ProductItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<Product> > ProductItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -6981,7 +6981,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Product&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Product>> ProductItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<Product>> ProductItemsAsync (List<long?> ids)
         {
              ApiResponse<List<Product>> localVarResponse = await ProductItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -6994,7 +6994,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Product&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Product>>> ProductItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Product>>> ProductItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -7053,7 +7053,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Exchange entities</param>
         /// <returns>List&lt;Product&gt;</returns>
-        public List<Product> ProductLDependents (List<int?> masterids)
+        public List<Product> ProductLDependents (List<long?> masterids)
         {
              ApiResponse<List<Product>> localVarResponse = ProductLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -7065,7 +7065,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Exchange entities</param>
         /// <returns>ApiResponse of List&lt;Product&gt;</returns>
-        public ApiResponse< List<Product> > ProductLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<Product> > ProductLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -7124,7 +7124,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Exchange entities</param>
         /// <returns>Task of List&lt;Product&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Product>> ProductLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<Product>> ProductLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<Product>> localVarResponse = await ProductLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -7137,7 +7137,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Exchange entities</param>
         /// <returns>Task of ApiResponse (List&lt;Product&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Product>>> ProductLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Product>>> ProductLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -7613,7 +7613,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;ProductSession&gt;</returns>
-        public List<ProductSession> ProductSessionItems (List<int?> ids)
+        public List<ProductSession> ProductSessionItems (List<long?> ids)
         {
              ApiResponse<List<ProductSession>> localVarResponse = ProductSessionItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -7625,7 +7625,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;ProductSession&gt;</returns>
-        public ApiResponse< List<ProductSession> > ProductSessionItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<ProductSession> > ProductSessionItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -7684,7 +7684,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;ProductSession&gt;</returns>
-        public async System.Threading.Tasks.Task<List<ProductSession>> ProductSessionItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<ProductSession>> ProductSessionItemsAsync (List<long?> ids)
         {
              ApiResponse<List<ProductSession>> localVarResponse = await ProductSessionItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -7697,7 +7697,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;ProductSession&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<ProductSession>>> ProductSessionItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<ProductSession>>> ProductSessionItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -7756,7 +7756,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>List&lt;ProductSession&gt;</returns>
-        public List<ProductSession> ProductSessionLDependents (List<int?> masterids)
+        public List<ProductSession> ProductSessionLDependents (List<long?> masterids)
         {
              ApiResponse<List<ProductSession>> localVarResponse = ProductSessionLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -7768,7 +7768,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>ApiResponse of List&lt;ProductSession&gt;</returns>
-        public ApiResponse< List<ProductSession> > ProductSessionLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<ProductSession> > ProductSessionLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -7827,7 +7827,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>Task of List&lt;ProductSession&gt;</returns>
-        public async System.Threading.Tasks.Task<List<ProductSession>> ProductSessionLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<ProductSession>> ProductSessionLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<ProductSession>> localVarResponse = await ProductSessionLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -7840,7 +7840,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Product entities</param>
         /// <returns>Task of ApiResponse (List&lt;ProductSession&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<ProductSession>>> ProductSessionLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<ProductSession>>> ProductSessionLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -8356,7 +8356,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;SpreadDefinition&gt;</returns>
-        public List<SpreadDefinition> SpreadDefinitionItems (List<int?> ids)
+        public List<SpreadDefinition> SpreadDefinitionItems (List<long?> ids)
         {
              ApiResponse<List<SpreadDefinition>> localVarResponse = SpreadDefinitionItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -8368,7 +8368,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;SpreadDefinition&gt;</returns>
-        public ApiResponse< List<SpreadDefinition> > SpreadDefinitionItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<SpreadDefinition> > SpreadDefinitionItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -8427,7 +8427,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;SpreadDefinition&gt;</returns>
-        public async System.Threading.Tasks.Task<List<SpreadDefinition>> SpreadDefinitionItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<SpreadDefinition>> SpreadDefinitionItemsAsync (List<long?> ids)
         {
              ApiResponse<List<SpreadDefinition>> localVarResponse = await SpreadDefinitionItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -8440,7 +8440,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;SpreadDefinition&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<SpreadDefinition>>> SpreadDefinitionItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<SpreadDefinition>>> SpreadDefinitionItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)

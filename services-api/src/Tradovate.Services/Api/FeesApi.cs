@@ -74,7 +74,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;MarketDataSubscriptionExchangeScope&gt;</returns>
-        List<MarketDataSubscriptionExchangeScope> MarketDataSubscriptionExchangeScopeItems (List<int?> ids);
+        List<MarketDataSubscriptionExchangeScope> MarketDataSubscriptionExchangeScopeItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -85,7 +85,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;MarketDataSubscriptionExchangeScope&gt;</returns>
-        ApiResponse<List<MarketDataSubscriptionExchangeScope>> MarketDataSubscriptionExchangeScopeItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<MarketDataSubscriptionExchangeScope>> MarketDataSubscriptionExchangeScopeItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -179,7 +179,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;MarketDataSubscriptionPlan&gt;</returns>
-        List<MarketDataSubscriptionPlan> MarketDataSubscriptionPlanItems (List<int?> ids);
+        List<MarketDataSubscriptionPlan> MarketDataSubscriptionPlanItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -190,7 +190,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;MarketDataSubscriptionPlan&gt;</returns>
-        ApiResponse<List<MarketDataSubscriptionPlan>> MarketDataSubscriptionPlanItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<MarketDataSubscriptionPlan>> MarketDataSubscriptionPlanItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -284,7 +284,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;TradovateSubscriptionPlan&gt;</returns>
-        List<TradovateSubscriptionPlan> TradovateSubscriptionPlanItems (List<int?> ids);
+        List<TradovateSubscriptionPlan> TradovateSubscriptionPlanItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -295,7 +295,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;TradovateSubscriptionPlan&gt;</returns>
-        ApiResponse<List<TradovateSubscriptionPlan>> TradovateSubscriptionPlanItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<TradovateSubscriptionPlan>> TradovateSubscriptionPlanItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -391,7 +391,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;MarketDataSubscriptionExchangeScope&gt;</returns>
-        System.Threading.Tasks.Task<List<MarketDataSubscriptionExchangeScope>> MarketDataSubscriptionExchangeScopeItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<MarketDataSubscriptionExchangeScope>> MarketDataSubscriptionExchangeScopeItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -402,7 +402,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;MarketDataSubscriptionExchangeScope&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<MarketDataSubscriptionExchangeScope>>> MarketDataSubscriptionExchangeScopeItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<MarketDataSubscriptionExchangeScope>>> MarketDataSubscriptionExchangeScopeItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -496,7 +496,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;MarketDataSubscriptionPlan&gt;</returns>
-        System.Threading.Tasks.Task<List<MarketDataSubscriptionPlan>> MarketDataSubscriptionPlanItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<MarketDataSubscriptionPlan>> MarketDataSubscriptionPlanItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -507,7 +507,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;MarketDataSubscriptionPlan&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<MarketDataSubscriptionPlan>>> MarketDataSubscriptionPlanItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<MarketDataSubscriptionPlan>>> MarketDataSubscriptionPlanItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -601,7 +601,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;TradovateSubscriptionPlan&gt;</returns>
-        System.Threading.Tasks.Task<List<TradovateSubscriptionPlan>> TradovateSubscriptionPlanItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<TradovateSubscriptionPlan>> TradovateSubscriptionPlanItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -612,7 +612,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;TradovateSubscriptionPlan&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<TradovateSubscriptionPlan>>> TradovateSubscriptionPlanItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<TradovateSubscriptionPlan>>> TradovateSubscriptionPlanItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -1058,7 +1058,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;MarketDataSubscriptionExchangeScope&gt;</returns>
-        public List<MarketDataSubscriptionExchangeScope> MarketDataSubscriptionExchangeScopeItems (List<int?> ids)
+        public List<MarketDataSubscriptionExchangeScope> MarketDataSubscriptionExchangeScopeItems (List<long?> ids)
         {
              ApiResponse<List<MarketDataSubscriptionExchangeScope>> localVarResponse = MarketDataSubscriptionExchangeScopeItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1070,7 +1070,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;MarketDataSubscriptionExchangeScope&gt;</returns>
-        public ApiResponse< List<MarketDataSubscriptionExchangeScope> > MarketDataSubscriptionExchangeScopeItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<MarketDataSubscriptionExchangeScope> > MarketDataSubscriptionExchangeScopeItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -1129,7 +1129,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;MarketDataSubscriptionExchangeScope&gt;</returns>
-        public async System.Threading.Tasks.Task<List<MarketDataSubscriptionExchangeScope>> MarketDataSubscriptionExchangeScopeItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<MarketDataSubscriptionExchangeScope>> MarketDataSubscriptionExchangeScopeItemsAsync (List<long?> ids)
         {
              ApiResponse<List<MarketDataSubscriptionExchangeScope>> localVarResponse = await MarketDataSubscriptionExchangeScopeItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1142,7 +1142,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;MarketDataSubscriptionExchangeScope&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<MarketDataSubscriptionExchangeScope>>> MarketDataSubscriptionExchangeScopeItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<MarketDataSubscriptionExchangeScope>>> MarketDataSubscriptionExchangeScopeItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -1773,7 +1773,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;MarketDataSubscriptionPlan&gt;</returns>
-        public List<MarketDataSubscriptionPlan> MarketDataSubscriptionPlanItems (List<int?> ids)
+        public List<MarketDataSubscriptionPlan> MarketDataSubscriptionPlanItems (List<long?> ids)
         {
              ApiResponse<List<MarketDataSubscriptionPlan>> localVarResponse = MarketDataSubscriptionPlanItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1785,7 +1785,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;MarketDataSubscriptionPlan&gt;</returns>
-        public ApiResponse< List<MarketDataSubscriptionPlan> > MarketDataSubscriptionPlanItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<MarketDataSubscriptionPlan> > MarketDataSubscriptionPlanItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -1844,7 +1844,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;MarketDataSubscriptionPlan&gt;</returns>
-        public async System.Threading.Tasks.Task<List<MarketDataSubscriptionPlan>> MarketDataSubscriptionPlanItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<MarketDataSubscriptionPlan>> MarketDataSubscriptionPlanItemsAsync (List<long?> ids)
         {
              ApiResponse<List<MarketDataSubscriptionPlan>> localVarResponse = await MarketDataSubscriptionPlanItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1857,7 +1857,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;MarketDataSubscriptionPlan&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<MarketDataSubscriptionPlan>>> MarketDataSubscriptionPlanItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<MarketDataSubscriptionPlan>>> MarketDataSubscriptionPlanItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -2488,7 +2488,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;TradovateSubscriptionPlan&gt;</returns>
-        public List<TradovateSubscriptionPlan> TradovateSubscriptionPlanItems (List<int?> ids)
+        public List<TradovateSubscriptionPlan> TradovateSubscriptionPlanItems (List<long?> ids)
         {
              ApiResponse<List<TradovateSubscriptionPlan>> localVarResponse = TradovateSubscriptionPlanItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -2500,7 +2500,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;TradovateSubscriptionPlan&gt;</returns>
-        public ApiResponse< List<TradovateSubscriptionPlan> > TradovateSubscriptionPlanItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<TradovateSubscriptionPlan> > TradovateSubscriptionPlanItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -2559,7 +2559,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;TradovateSubscriptionPlan&gt;</returns>
-        public async System.Threading.Tasks.Task<List<TradovateSubscriptionPlan>> TradovateSubscriptionPlanItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<TradovateSubscriptionPlan>> TradovateSubscriptionPlanItemsAsync (List<long?> ids)
         {
              ApiResponse<List<TradovateSubscriptionPlan>> localVarResponse = await TradovateSubscriptionPlanItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -2572,7 +2572,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;TradovateSubscriptionPlan&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<TradovateSubscriptionPlan>>> TradovateSubscriptionPlanItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<TradovateSubscriptionPlan>>> TradovateSubscriptionPlanItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)

@@ -74,7 +74,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Chat&gt;</returns>
-        List<Chat> ChatItems (List<int?> ids);
+        List<Chat> ChatItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -85,7 +85,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Chat&gt;</returns>
-        ApiResponse<List<Chat>> ChatItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<Chat>> ChatItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -95,7 +95,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>List&lt;Chat&gt;</returns>
-        List<Chat> ChatLDependents (List<int?> masterids);
+        List<Chat> ChatLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -106,7 +106,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>ApiResponse of List&lt;Chat&gt;</returns>
-        ApiResponse<List<Chat>> ChatLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<Chat>> ChatLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -177,7 +177,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;ChatMessage&gt;</returns>
-        List<ChatMessage> ChatMessageItems (List<int?> ids);
+        List<ChatMessage> ChatMessageItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -188,7 +188,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;ChatMessage&gt;</returns>
-        ApiResponse<List<ChatMessage>> ChatMessageItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<ChatMessage>> ChatMessageItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -198,7 +198,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Chat entities</param>
         /// <returns>List&lt;ChatMessage&gt;</returns>
-        List<ChatMessage> ChatMessageLDependents (List<int?> masterids);
+        List<ChatMessage> ChatMessageLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -209,7 +209,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Chat entities</param>
         /// <returns>ApiResponse of List&lt;ChatMessage&gt;</returns>
-        ApiResponse<List<ChatMessage>> ChatMessageLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<ChatMessage>> ChatMessageLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -326,7 +326,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Chat&gt;</returns>
-        System.Threading.Tasks.Task<List<Chat>> ChatItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<Chat>> ChatItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -337,7 +337,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Chat&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Chat>>> ChatItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<Chat>>> ChatItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -347,7 +347,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>Task of List&lt;Chat&gt;</returns>
-        System.Threading.Tasks.Task<List<Chat>> ChatLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<Chat>> ChatLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -358,7 +358,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>Task of ApiResponse (List&lt;Chat&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Chat>>> ChatLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<Chat>>> ChatLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -429,7 +429,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;ChatMessage&gt;</returns>
-        System.Threading.Tasks.Task<List<ChatMessage>> ChatMessageItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<ChatMessage>> ChatMessageItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -440,7 +440,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;ChatMessage&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<ChatMessage>>> ChatMessageItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<ChatMessage>>> ChatMessageItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -450,7 +450,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Chat entities</param>
         /// <returns>Task of List&lt;ChatMessage&gt;</returns>
-        System.Threading.Tasks.Task<List<ChatMessage>> ChatMessageLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<ChatMessage>> ChatMessageLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -461,7 +461,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Chat entities</param>
         /// <returns>Task of ApiResponse (List&lt;ChatMessage&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<ChatMessage>>> ChatMessageLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<ChatMessage>>> ChatMessageLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -928,7 +928,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Chat&gt;</returns>
-        public List<Chat> ChatItems (List<int?> ids)
+        public List<Chat> ChatItems (List<long?> ids)
         {
              ApiResponse<List<Chat>> localVarResponse = ChatItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -940,7 +940,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Chat&gt;</returns>
-        public ApiResponse< List<Chat> > ChatItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<Chat> > ChatItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -999,7 +999,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Chat&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Chat>> ChatItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<Chat>> ChatItemsAsync (List<long?> ids)
         {
              ApiResponse<List<Chat>> localVarResponse = await ChatItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1012,7 +1012,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Chat&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Chat>>> ChatItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Chat>>> ChatItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -1071,7 +1071,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>List&lt;Chat&gt;</returns>
-        public List<Chat> ChatLDependents (List<int?> masterids)
+        public List<Chat> ChatLDependents (List<long?> masterids)
         {
              ApiResponse<List<Chat>> localVarResponse = ChatLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -1083,7 +1083,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>ApiResponse of List&lt;Chat&gt;</returns>
-        public ApiResponse< List<Chat> > ChatLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<Chat> > ChatLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -1142,7 +1142,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>Task of List&lt;Chat&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Chat>> ChatLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<Chat>> ChatLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<Chat>> localVarResponse = await ChatLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -1155,7 +1155,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>Task of ApiResponse (List&lt;Chat&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Chat>>> ChatLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Chat>>> ChatLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -1631,7 +1631,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;ChatMessage&gt;</returns>
-        public List<ChatMessage> ChatMessageItems (List<int?> ids)
+        public List<ChatMessage> ChatMessageItems (List<long?> ids)
         {
              ApiResponse<List<ChatMessage>> localVarResponse = ChatMessageItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1643,7 +1643,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;ChatMessage&gt;</returns>
-        public ApiResponse< List<ChatMessage> > ChatMessageItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<ChatMessage> > ChatMessageItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -1702,7 +1702,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;ChatMessage&gt;</returns>
-        public async System.Threading.Tasks.Task<List<ChatMessage>> ChatMessageItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<ChatMessage>> ChatMessageItemsAsync (List<long?> ids)
         {
              ApiResponse<List<ChatMessage>> localVarResponse = await ChatMessageItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1715,7 +1715,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;ChatMessage&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<ChatMessage>>> ChatMessageItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<ChatMessage>>> ChatMessageItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -1774,7 +1774,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Chat entities</param>
         /// <returns>List&lt;ChatMessage&gt;</returns>
-        public List<ChatMessage> ChatMessageLDependents (List<int?> masterids)
+        public List<ChatMessage> ChatMessageLDependents (List<long?> masterids)
         {
              ApiResponse<List<ChatMessage>> localVarResponse = ChatMessageLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -1786,7 +1786,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Chat entities</param>
         /// <returns>ApiResponse of List&lt;ChatMessage&gt;</returns>
-        public ApiResponse< List<ChatMessage> > ChatMessageLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<ChatMessage> > ChatMessageLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -1845,7 +1845,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Chat entities</param>
         /// <returns>Task of List&lt;ChatMessage&gt;</returns>
-        public async System.Threading.Tasks.Task<List<ChatMessage>> ChatMessageLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<ChatMessage>> ChatMessageLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<ChatMessage>> localVarResponse = await ChatMessageLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -1858,7 +1858,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Chat entities</param>
         /// <returns>Task of ApiResponse (List&lt;ChatMessage&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<ChatMessage>>> ChatMessageLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<ChatMessage>>> ChatMessageLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)

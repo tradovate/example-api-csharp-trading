@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="accountitems"></a>
 # **AccountItems**
-> List<Account> AccountItems (List<int?> ids)
+> List<Account> AccountItems (List<long?> ids)
 
 
 
@@ -236,7 +236,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -256,7 +256,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -274,7 +274,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="accountldependents"></a>
 # **AccountLDependents**
-> List<Account> AccountLDependents (List<int?> masterids)
+> List<Account> AccountLDependents (List<long?> masterids)
 
 
 
@@ -296,7 +296,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -316,7 +316,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -572,7 +572,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="cashbalanceitems"></a>
 # **CashBalanceItems**
-> List<CashBalance> CashBalanceItems (List<int?> ids)
+> List<CashBalance> CashBalanceItems (List<long?> ids)
 
 
 
@@ -594,7 +594,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -614,7 +614,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -632,7 +632,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="cashbalanceldependents"></a>
 # **CashBalanceLDependents**
-> List<CashBalance> CashBalanceLDependents (List<int?> masterids)
+> List<CashBalance> CashBalanceLDependents (List<long?> masterids)
 
 
 
@@ -654,7 +654,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Account entities
+            var masterids = new List<long?>(); // List<long?> | ids of Account entities
 
             try
             {
@@ -674,7 +674,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Account entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Account entities | 
 
 ### Return type
 
@@ -868,7 +868,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="cashbalancelogitems"></a>
 # **CashBalanceLogItems**
-> List<CashBalanceLog> CashBalanceLogItems (List<int?> ids)
+> List<CashBalanceLog> CashBalanceLogItems (List<long?> ids)
 
 
 
@@ -890,7 +890,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -910,7 +910,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -928,7 +928,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="cashbalancelogldependents"></a>
 # **CashBalanceLogLDependents**
-> List<CashBalanceLog> CashBalanceLogLDependents (List<int?> masterids)
+> List<CashBalanceLog> CashBalanceLogLDependents (List<long?> masterids)
 
 
 
@@ -950,7 +950,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Account entities
+            var masterids = new List<long?>(); // List<long?> | ids of Account entities
 
             try
             {
@@ -970,7 +970,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Account entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Account entities | 
 
 ### Return type
 
@@ -1166,7 +1166,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="marginsnapshotitems"></a>
 # **MarginSnapshotItems**
-> List<MarginSnapshot> MarginSnapshotItems (List<int?> ids)
+> List<MarginSnapshot> MarginSnapshotItems (List<long?> ids)
 
 
 
@@ -1188,7 +1188,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1208,7 +1208,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1226,7 +1226,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="marginsnapshotldependents"></a>
 # **MarginSnapshotLDependents**
-> List<MarginSnapshot> MarginSnapshotLDependents (List<int?> masterids)
+> List<MarginSnapshot> MarginSnapshotLDependents (List<long?> masterids)
 
 
 
@@ -1248,7 +1248,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Account entities
+            var masterids = new List<long?>(); // List<long?> | ids of Account entities
 
             try
             {
@@ -1268,7 +1268,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Account entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Account entities | 
 
 ### Return type
 
@@ -1462,7 +1462,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="tradingpermissionitems"></a>
 # **TradingPermissionItems**
-> List<TradingPermission> TradingPermissionItems (List<int?> ids)
+> List<TradingPermission> TradingPermissionItems (List<long?> ids)
 
 
 
@@ -1484,7 +1484,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1504,7 +1504,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1522,7 +1522,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="tradingpermissionldependents"></a>
 # **TradingPermissionLDependents**
-> List<TradingPermission> TradingPermissionLDependents (List<int?> masterids)
+> List<TradingPermission> TradingPermissionLDependents (List<long?> masterids)
 
 
 
@@ -1544,7 +1544,7 @@ namespace Example
         {
 
             var apiInstance = new AccountingApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -1564,7 +1564,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 

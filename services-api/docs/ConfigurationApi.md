@@ -150,7 +150,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="adminalertitems"></a>
 # **AdminAlertItems**
-> List<AdminAlert> AdminAlertItems (List<int?> ids)
+> List<AdminAlert> AdminAlertItems (List<long?> ids)
 
 
 
@@ -172,7 +172,7 @@ namespace Example
         {
 
             var apiInstance = new ConfigurationApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -192,7 +192,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -448,7 +448,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="clearinghouseitems"></a>
 # **ClearingHouseItems**
-> List<ClearingHouse> ClearingHouseItems (List<int?> ids)
+> List<ClearingHouse> ClearingHouseItems (List<long?> ids)
 
 
 
@@ -470,7 +470,7 @@ namespace Example
         {
 
             var apiInstance = new ConfigurationApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -490,7 +490,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -686,7 +686,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="entitlementitems"></a>
 # **EntitlementItems**
-> List<Entitlement> EntitlementItems (List<int?> ids)
+> List<Entitlement> EntitlementItems (List<long?> ids)
 
 
 
@@ -708,7 +708,7 @@ namespace Example
         {
 
             var apiInstance = new ConfigurationApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -728,7 +728,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -922,7 +922,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="orderstrategytypeitems"></a>
 # **OrderStrategyTypeItems**
-> List<OrderStrategyType> OrderStrategyTypeItems (List<int?> ids)
+> List<OrderStrategyType> OrderStrategyTypeItems (List<long?> ids)
 
 
 
@@ -944,7 +944,7 @@ namespace Example
         {
 
             var apiInstance = new ConfigurationApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -964,7 +964,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1220,7 +1220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="propertyitems"></a>
 # **PropertyItems**
-> List<Property> PropertyItems (List<int?> ids)
+> List<Property> PropertyItems (List<long?> ids)
 
 
 
@@ -1242,7 +1242,7 @@ namespace Example
         {
 
             var apiInstance = new ConfigurationApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1262,7 +1262,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 

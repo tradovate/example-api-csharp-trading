@@ -150,7 +150,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="adminalertsignalitems"></a>
 # **AdminAlertSignalItems**
-> List<AdminAlertSignal> AdminAlertSignalItems (List<int?> ids)
+> List<AdminAlertSignal> AdminAlertSignalItems (List<long?> ids)
 
 
 
@@ -172,7 +172,7 @@ namespace Example
         {
 
             var apiInstance = new AlertsApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -192,7 +192,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -210,7 +210,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="adminalertsignalldependents"></a>
 # **AdminAlertSignalLDependents**
-> List<AdminAlertSignal> AdminAlertSignalLDependents (List<int?> masterids)
+> List<AdminAlertSignal> AdminAlertSignalLDependents (List<long?> masterids)
 
 
 
@@ -232,7 +232,7 @@ namespace Example
         {
 
             var apiInstance = new AlertsApi();
-            var masterids = new List<int?>(); // List<int?> | ids of AdminAlert entities
+            var masterids = new List<long?>(); // List<long?> | ids of AdminAlert entities
 
             try
             {
@@ -252,7 +252,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of AdminAlert entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of AdminAlert entities | 
 
 ### Return type
 
@@ -446,7 +446,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="alertitems"></a>
 # **AlertItems**
-> List<Alert> AlertItems (List<int?> ids)
+> List<Alert> AlertItems (List<long?> ids)
 
 
 
@@ -468,7 +468,7 @@ namespace Example
         {
 
             var apiInstance = new AlertsApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -488,7 +488,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -506,7 +506,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="alertldependents"></a>
 # **AlertLDependents**
-> List<Alert> AlertLDependents (List<int?> masterids)
+> List<Alert> AlertLDependents (List<long?> masterids)
 
 
 
@@ -528,7 +528,7 @@ namespace Example
         {
 
             var apiInstance = new AlertsApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -548,7 +548,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -742,7 +742,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="alertsignalitems"></a>
 # **AlertSignalItems**
-> List<AlertSignal> AlertSignalItems (List<int?> ids)
+> List<AlertSignal> AlertSignalItems (List<long?> ids)
 
 
 
@@ -764,7 +764,7 @@ namespace Example
         {
 
             var apiInstance = new AlertsApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -784,7 +784,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -802,7 +802,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="alertsignalldependents"></a>
 # **AlertSignalLDependents**
-> List<AlertSignal> AlertSignalLDependents (List<int?> masterids)
+> List<AlertSignal> AlertSignalLDependents (List<long?> masterids)
 
 
 
@@ -824,7 +824,7 @@ namespace Example
         {
 
             var apiInstance = new AlertsApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Alert entities
+            var masterids = new List<long?>(); // List<long?> | ids of Alert entities
 
             try
             {
@@ -844,7 +844,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Alert entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Alert entities | 
 
 ### Return type
 

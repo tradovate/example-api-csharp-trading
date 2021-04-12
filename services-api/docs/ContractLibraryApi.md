@@ -292,7 +292,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contractgroupitems"></a>
 # **ContractGroupItems**
-> List<ContractGroup> ContractGroupItems (List<int?> ids)
+> List<ContractGroup> ContractGroupItems (List<long?> ids)
 
 
 
@@ -314,7 +314,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -334,7 +334,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -530,7 +530,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contractitems"></a>
 # **ContractItems**
-> List<Contract> ContractItems (List<int?> ids)
+> List<Contract> ContractItems (List<long?> ids)
 
 
 
@@ -552,7 +552,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -572,7 +572,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -770,7 +770,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contractmaturityitems"></a>
 # **ContractMaturityItems**
-> List<ContractMaturity> ContractMaturityItems (List<int?> ids)
+> List<ContractMaturity> ContractMaturityItems (List<long?> ids)
 
 
 
@@ -792,7 +792,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -812,7 +812,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -830,7 +830,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contractmaturityldependents"></a>
 # **ContractMaturityLDependents**
-> List<ContractMaturity> ContractMaturityLDependents (List<int?> masterids)
+> List<ContractMaturity> ContractMaturityLDependents (List<long?> masterids)
 
 
 
@@ -852,7 +852,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Product entities
+            var masterids = new List<long?>(); // List<long?> | ids of Product entities
 
             try
             {
@@ -872,7 +872,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Product entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Product entities | 
 
 ### Return type
 
@@ -1072,7 +1072,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="currencyitems"></a>
 # **CurrencyItems**
-> List<Currency> CurrencyItems (List<int?> ids)
+> List<Currency> CurrencyItems (List<long?> ids)
 
 
 
@@ -1094,7 +1094,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1114,7 +1114,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1308,7 +1308,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="currencyrateitems"></a>
 # **CurrencyRateItems**
-> List<CurrencyRate> CurrencyRateItems (List<int?> ids)
+> List<CurrencyRate> CurrencyRateItems (List<long?> ids)
 
 
 
@@ -1330,7 +1330,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1350,7 +1350,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1368,7 +1368,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="currencyrateldependents"></a>
 # **CurrencyRateLDependents**
-> List<CurrencyRate> CurrencyRateLDependents (List<int?> masterids)
+> List<CurrencyRate> CurrencyRateLDependents (List<long?> masterids)
 
 
 
@@ -1390,7 +1390,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Currency entities
+            var masterids = new List<long?>(); // List<long?> | ids of Currency entities
 
             try
             {
@@ -1410,7 +1410,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Currency entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Currency entities | 
 
 ### Return type
 
@@ -1666,7 +1666,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="exchangeitems"></a>
 # **ExchangeItems**
-> List<Exchange> ExchangeItems (List<int?> ids)
+> List<Exchange> ExchangeItems (List<long?> ids)
 
 
 
@@ -1688,7 +1688,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1708,7 +1708,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2082,7 +2082,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="productitems"></a>
 # **ProductItems**
-> List<Product> ProductItems (List<int?> ids)
+> List<Product> ProductItems (List<long?> ids)
 
 
 
@@ -2104,7 +2104,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -2124,7 +2124,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2142,7 +2142,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="productldependents"></a>
 # **ProductLDependents**
-> List<Product> ProductLDependents (List<int?> masterids)
+> List<Product> ProductLDependents (List<long?> masterids)
 
 
 
@@ -2164,7 +2164,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Exchange entities
+            var masterids = new List<long?>(); // List<long?> | ids of Exchange entities
 
             try
             {
@@ -2184,7 +2184,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Exchange entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Exchange entities | 
 
 ### Return type
 
@@ -2378,7 +2378,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="productsessionitems"></a>
 # **ProductSessionItems**
-> List<ProductSession> ProductSessionItems (List<int?> ids)
+> List<ProductSession> ProductSessionItems (List<long?> ids)
 
 
 
@@ -2400,7 +2400,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -2420,7 +2420,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2438,7 +2438,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="productsessionldependents"></a>
 # **ProductSessionLDependents**
-> List<ProductSession> ProductSessionLDependents (List<int?> masterids)
+> List<ProductSession> ProductSessionLDependents (List<long?> masterids)
 
 
 
@@ -2460,7 +2460,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Product entities
+            var masterids = new List<long?>(); // List<long?> | ids of Product entities
 
             try
             {
@@ -2480,7 +2480,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Product entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Product entities | 
 
 ### Return type
 
@@ -2678,7 +2678,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="spreaddefinitionitems"></a>
 # **SpreadDefinitionItems**
-> List<SpreadDefinition> SpreadDefinitionItems (List<int?> ids)
+> List<SpreadDefinition> SpreadDefinitionItems (List<long?> ids)
 
 
 
@@ -2700,7 +2700,7 @@ namespace Example
         {
 
             var apiInstance = new ContractLibraryApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -2720,7 +2720,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 

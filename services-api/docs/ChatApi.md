@@ -139,7 +139,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="chatitems"></a>
 # **ChatItems**
-> List<Chat> ChatItems (List<int?> ids)
+> List<Chat> ChatItems (List<long?> ids)
 
 
 
@@ -161,7 +161,7 @@ namespace Example
         {
 
             var apiInstance = new ChatApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -181,7 +181,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -199,7 +199,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="chatldependents"></a>
 # **ChatLDependents**
-> List<Chat> ChatLDependents (List<int?> masterids)
+> List<Chat> ChatLDependents (List<long?> masterids)
 
 
 
@@ -221,7 +221,7 @@ namespace Example
         {
 
             var apiInstance = new ChatApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -241,7 +241,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -435,7 +435,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="chatmessageitems"></a>
 # **ChatMessageItems**
-> List<ChatMessage> ChatMessageItems (List<int?> ids)
+> List<ChatMessage> ChatMessageItems (List<long?> ids)
 
 
 
@@ -457,7 +457,7 @@ namespace Example
         {
 
             var apiInstance = new ChatApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -477,7 +477,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -495,7 +495,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="chatmessageldependents"></a>
 # **ChatMessageLDependents**
-> List<ChatMessage> ChatMessageLDependents (List<int?> masterids)
+> List<ChatMessage> ChatMessageLDependents (List<long?> masterids)
 
 
 
@@ -517,7 +517,7 @@ namespace Example
         {
 
             var apiInstance = new ChatApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Chat entities
+            var masterids = new List<long?>(); // List<long?> | ids of Chat entities
 
             try
             {
@@ -537,7 +537,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Chat entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Chat entities | 
 
 ### Return type
 

@@ -74,7 +74,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;AdminAlertSignal&gt;</returns>
-        List<AdminAlertSignal> AdminAlertSignalItems (List<int?> ids);
+        List<AdminAlertSignal> AdminAlertSignalItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -85,7 +85,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;AdminAlertSignal&gt;</returns>
-        ApiResponse<List<AdminAlertSignal>> AdminAlertSignalItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<AdminAlertSignal>> AdminAlertSignalItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -95,7 +95,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of AdminAlert entities</param>
         /// <returns>List&lt;AdminAlertSignal&gt;</returns>
-        List<AdminAlertSignal> AdminAlertSignalLDependents (List<int?> masterids);
+        List<AdminAlertSignal> AdminAlertSignalLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -106,7 +106,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of AdminAlert entities</param>
         /// <returns>ApiResponse of List&lt;AdminAlertSignal&gt;</returns>
-        ApiResponse<List<AdminAlertSignal>> AdminAlertSignalLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<AdminAlertSignal>> AdminAlertSignalLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -177,7 +177,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Alert&gt;</returns>
-        List<Alert> AlertItems (List<int?> ids);
+        List<Alert> AlertItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -188,7 +188,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Alert&gt;</returns>
-        ApiResponse<List<Alert>> AlertItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<Alert>> AlertItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -198,7 +198,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>List&lt;Alert&gt;</returns>
-        List<Alert> AlertLDependents (List<int?> masterids);
+        List<Alert> AlertLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -209,7 +209,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>ApiResponse of List&lt;Alert&gt;</returns>
-        ApiResponse<List<Alert>> AlertLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<Alert>> AlertLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -280,7 +280,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;AlertSignal&gt;</returns>
-        List<AlertSignal> AlertSignalItems (List<int?> ids);
+        List<AlertSignal> AlertSignalItems (List<long?> ids);
 
         /// <summary>
         /// 
@@ -291,7 +291,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;AlertSignal&gt;</returns>
-        ApiResponse<List<AlertSignal>> AlertSignalItemsWithHttpInfo (List<int?> ids);
+        ApiResponse<List<AlertSignal>> AlertSignalItemsWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -301,7 +301,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Alert entities</param>
         /// <returns>List&lt;AlertSignal&gt;</returns>
-        List<AlertSignal> AlertSignalLDependents (List<int?> masterids);
+        List<AlertSignal> AlertSignalLDependents (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -312,7 +312,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Alert entities</param>
         /// <returns>ApiResponse of List&lt;AlertSignal&gt;</returns>
-        ApiResponse<List<AlertSignal>> AlertSignalLDependentsWithHttpInfo (List<int?> masterids);
+        ApiResponse<List<AlertSignal>> AlertSignalLDependentsWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -553,7 +553,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;AdminAlertSignal&gt;</returns>
-        System.Threading.Tasks.Task<List<AdminAlertSignal>> AdminAlertSignalItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<AdminAlertSignal>> AdminAlertSignalItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -564,7 +564,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;AdminAlertSignal&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<AdminAlertSignal>>> AdminAlertSignalItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<AdminAlertSignal>>> AdminAlertSignalItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -574,7 +574,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of AdminAlert entities</param>
         /// <returns>Task of List&lt;AdminAlertSignal&gt;</returns>
-        System.Threading.Tasks.Task<List<AdminAlertSignal>> AdminAlertSignalLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<AdminAlertSignal>> AdminAlertSignalLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -585,7 +585,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of AdminAlert entities</param>
         /// <returns>Task of ApiResponse (List&lt;AdminAlertSignal&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<AdminAlertSignal>>> AdminAlertSignalLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<AdminAlertSignal>>> AdminAlertSignalLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -656,7 +656,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Alert&gt;</returns>
-        System.Threading.Tasks.Task<List<Alert>> AlertItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<Alert>> AlertItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -667,7 +667,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Alert&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Alert>>> AlertItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<Alert>>> AlertItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -677,7 +677,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>Task of List&lt;Alert&gt;</returns>
-        System.Threading.Tasks.Task<List<Alert>> AlertLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<Alert>> AlertLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -688,7 +688,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>Task of ApiResponse (List&lt;Alert&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<Alert>>> AlertLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<Alert>>> AlertLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -759,7 +759,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;AlertSignal&gt;</returns>
-        System.Threading.Tasks.Task<List<AlertSignal>> AlertSignalItemsAsync (List<int?> ids);
+        System.Threading.Tasks.Task<List<AlertSignal>> AlertSignalItemsAsync (List<long?> ids);
 
         /// <summary>
         /// 
@@ -770,7 +770,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;AlertSignal&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<AlertSignal>>> AlertSignalItemsAsyncWithHttpInfo (List<int?> ids);
+        System.Threading.Tasks.Task<ApiResponse<List<AlertSignal>>> AlertSignalItemsAsyncWithHttpInfo (List<long?> ids);
         /// <summary>
         /// 
         /// </summary>
@@ -780,7 +780,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Alert entities</param>
         /// <returns>Task of List&lt;AlertSignal&gt;</returns>
-        System.Threading.Tasks.Task<List<AlertSignal>> AlertSignalLDependentsAsync (List<int?> masterids);
+        System.Threading.Tasks.Task<List<AlertSignal>> AlertSignalLDependentsAsync (List<long?> masterids);
 
         /// <summary>
         /// 
@@ -791,7 +791,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Alert entities</param>
         /// <returns>Task of ApiResponse (List&lt;AlertSignal&gt;)</returns>
-        System.Threading.Tasks.Task<ApiResponse<List<AlertSignal>>> AlertSignalLDependentsAsyncWithHttpInfo (List<int?> masterids);
+        System.Threading.Tasks.Task<ApiResponse<List<AlertSignal>>> AlertSignalLDependentsAsyncWithHttpInfo (List<long?> masterids);
         /// <summary>
         /// 
         /// </summary>
@@ -1382,7 +1382,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;AdminAlertSignal&gt;</returns>
-        public List<AdminAlertSignal> AdminAlertSignalItems (List<int?> ids)
+        public List<AdminAlertSignal> AdminAlertSignalItems (List<long?> ids)
         {
              ApiResponse<List<AdminAlertSignal>> localVarResponse = AdminAlertSignalItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1394,7 +1394,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;AdminAlertSignal&gt;</returns>
-        public ApiResponse< List<AdminAlertSignal> > AdminAlertSignalItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<AdminAlertSignal> > AdminAlertSignalItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -1453,7 +1453,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;AdminAlertSignal&gt;</returns>
-        public async System.Threading.Tasks.Task<List<AdminAlertSignal>> AdminAlertSignalItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<AdminAlertSignal>> AdminAlertSignalItemsAsync (List<long?> ids)
         {
              ApiResponse<List<AdminAlertSignal>> localVarResponse = await AdminAlertSignalItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -1466,7 +1466,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;AdminAlertSignal&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<AdminAlertSignal>>> AdminAlertSignalItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<AdminAlertSignal>>> AdminAlertSignalItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -1525,7 +1525,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of AdminAlert entities</param>
         /// <returns>List&lt;AdminAlertSignal&gt;</returns>
-        public List<AdminAlertSignal> AdminAlertSignalLDependents (List<int?> masterids)
+        public List<AdminAlertSignal> AdminAlertSignalLDependents (List<long?> masterids)
         {
              ApiResponse<List<AdminAlertSignal>> localVarResponse = AdminAlertSignalLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -1537,7 +1537,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of AdminAlert entities</param>
         /// <returns>ApiResponse of List&lt;AdminAlertSignal&gt;</returns>
-        public ApiResponse< List<AdminAlertSignal> > AdminAlertSignalLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<AdminAlertSignal> > AdminAlertSignalLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -1596,7 +1596,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of AdminAlert entities</param>
         /// <returns>Task of List&lt;AdminAlertSignal&gt;</returns>
-        public async System.Threading.Tasks.Task<List<AdminAlertSignal>> AdminAlertSignalLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<AdminAlertSignal>> AdminAlertSignalLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<AdminAlertSignal>> localVarResponse = await AdminAlertSignalLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -1609,7 +1609,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of AdminAlert entities</param>
         /// <returns>Task of ApiResponse (List&lt;AdminAlertSignal&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<AdminAlertSignal>>> AdminAlertSignalLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<AdminAlertSignal>>> AdminAlertSignalLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -2085,7 +2085,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;Alert&gt;</returns>
-        public List<Alert> AlertItems (List<int?> ids)
+        public List<Alert> AlertItems (List<long?> ids)
         {
              ApiResponse<List<Alert>> localVarResponse = AlertItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -2097,7 +2097,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;Alert&gt;</returns>
-        public ApiResponse< List<Alert> > AlertItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<Alert> > AlertItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -2156,7 +2156,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;Alert&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Alert>> AlertItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<Alert>> AlertItemsAsync (List<long?> ids)
         {
              ApiResponse<List<Alert>> localVarResponse = await AlertItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -2169,7 +2169,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;Alert&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Alert>>> AlertItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Alert>>> AlertItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -2228,7 +2228,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>List&lt;Alert&gt;</returns>
-        public List<Alert> AlertLDependents (List<int?> masterids)
+        public List<Alert> AlertLDependents (List<long?> masterids)
         {
              ApiResponse<List<Alert>> localVarResponse = AlertLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -2240,7 +2240,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>ApiResponse of List&lt;Alert&gt;</returns>
-        public ApiResponse< List<Alert> > AlertLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<Alert> > AlertLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -2299,7 +2299,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>Task of List&lt;Alert&gt;</returns>
-        public async System.Threading.Tasks.Task<List<Alert>> AlertLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<Alert>> AlertLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<Alert>> localVarResponse = await AlertLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -2312,7 +2312,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of User entities</param>
         /// <returns>Task of ApiResponse (List&lt;Alert&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<Alert>>> AlertLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<Alert>>> AlertLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -2788,7 +2788,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>List&lt;AlertSignal&gt;</returns>
-        public List<AlertSignal> AlertSignalItems (List<int?> ids)
+        public List<AlertSignal> AlertSignalItems (List<long?> ids)
         {
              ApiResponse<List<AlertSignal>> localVarResponse = AlertSignalItemsWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -2800,7 +2800,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>ApiResponse of List&lt;AlertSignal&gt;</returns>
-        public ApiResponse< List<AlertSignal> > AlertSignalItemsWithHttpInfo (List<int?> ids)
+        public ApiResponse< List<AlertSignal> > AlertSignalItemsWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -2859,7 +2859,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of List&lt;AlertSignal&gt;</returns>
-        public async System.Threading.Tasks.Task<List<AlertSignal>> AlertSignalItemsAsync (List<int?> ids)
+        public async System.Threading.Tasks.Task<List<AlertSignal>> AlertSignalItemsAsync (List<long?> ids)
         {
              ApiResponse<List<AlertSignal>> localVarResponse = await AlertSignalItemsAsyncWithHttpInfo(ids);
              return localVarResponse.Data;
@@ -2872,7 +2872,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="ids"></param>
         /// <returns>Task of ApiResponse (List&lt;AlertSignal&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<AlertSignal>>> AlertSignalItemsAsyncWithHttpInfo (List<int?> ids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<AlertSignal>>> AlertSignalItemsAsyncWithHttpInfo (List<long?> ids)
         {
             // verify the required parameter 'ids' is set
             if (ids == null)
@@ -2931,7 +2931,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Alert entities</param>
         /// <returns>List&lt;AlertSignal&gt;</returns>
-        public List<AlertSignal> AlertSignalLDependents (List<int?> masterids)
+        public List<AlertSignal> AlertSignalLDependents (List<long?> masterids)
         {
              ApiResponse<List<AlertSignal>> localVarResponse = AlertSignalLDependentsWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -2943,7 +2943,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Alert entities</param>
         /// <returns>ApiResponse of List&lt;AlertSignal&gt;</returns>
-        public ApiResponse< List<AlertSignal> > AlertSignalLDependentsWithHttpInfo (List<int?> masterids)
+        public ApiResponse< List<AlertSignal> > AlertSignalLDependentsWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
@@ -3002,7 +3002,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Alert entities</param>
         /// <returns>Task of List&lt;AlertSignal&gt;</returns>
-        public async System.Threading.Tasks.Task<List<AlertSignal>> AlertSignalLDependentsAsync (List<int?> masterids)
+        public async System.Threading.Tasks.Task<List<AlertSignal>> AlertSignalLDependentsAsync (List<long?> masterids)
         {
              ApiResponse<List<AlertSignal>> localVarResponse = await AlertSignalLDependentsAsyncWithHttpInfo(masterids);
              return localVarResponse.Data;
@@ -3015,7 +3015,7 @@ namespace Tradovate.Services.Api
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="masterids">ids of Alert entities</param>
         /// <returns>Task of ApiResponse (List&lt;AlertSignal&gt;)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<List<AlertSignal>>> AlertSignalLDependentsAsyncWithHttpInfo (List<int?> masterids)
+        public async System.Threading.Tasks.Task<ApiResponse<List<AlertSignal>>> AlertSignalLDependentsAsyncWithHttpInfo (List<long?> masterids)
         {
             // verify the required parameter 'masterids' is set
             if (masterids == null)
