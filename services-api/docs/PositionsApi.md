@@ -138,7 +138,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="fillpairitems"></a>
 # **FillPairItems**
-> List<FillPair> FillPairItems (List<int?> ids)
+> List<FillPair> FillPairItems (List<long?> ids)
 
 
 
@@ -160,7 +160,7 @@ namespace Example
         {
 
             var apiInstance = new PositionsApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -180,7 +180,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -198,7 +198,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="fillpairldependents"></a>
 # **FillPairLDependents**
-> List<FillPair> FillPairLDependents (List<int?> masterids)
+> List<FillPair> FillPairLDependents (List<long?> masterids)
 
 
 
@@ -220,7 +220,7 @@ namespace Example
         {
 
             var apiInstance = new PositionsApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Position entities
+            var masterids = new List<long?>(); // List<long?> | ids of Position entities
 
             try
             {
@@ -240,7 +240,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Position entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Position entities | 
 
 ### Return type
 
@@ -494,7 +494,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="positionitems"></a>
 # **PositionItems**
-> List<Position> PositionItems (List<int?> ids)
+> List<Position> PositionItems (List<long?> ids)
 
 
 
@@ -516,7 +516,7 @@ namespace Example
         {
 
             var apiInstance = new PositionsApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -536,7 +536,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -554,7 +554,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="positionldependents"></a>
 # **PositionLDependents**
-> List<Position> PositionLDependents (List<int?> masterids)
+> List<Position> PositionLDependents (List<long?> masterids)
 
 
 
@@ -576,7 +576,7 @@ namespace Example
         {
 
             var apiInstance = new PositionsApi();
-            var masterids = new List<int?>(); // List<int?> | ids of Account entities
+            var masterids = new List<long?>(); // List<long?> | ids of Account entities
 
             try
             {
@@ -596,7 +596,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of Account entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of Account entities | 
 
 ### Return type
 

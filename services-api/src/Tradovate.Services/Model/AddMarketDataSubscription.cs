@@ -38,7 +38,7 @@ namespace Tradovate.Services.Model
         /// <param name="creditCardId">creditCardId.</param>
         /// <param name="accountId">accountId.</param>
         /// <param name="userId">userId.</param>
-        public AddMarketDataSubscription(List<int?> marketDataSubscriptionPlanIds = default(List<int?>), int? year = default(int?), int? month = default(int?), long? creditCardId = default(long?), long? accountId = default(long?), long? userId = default(long?))
+        public AddMarketDataSubscription(List<long?> marketDataSubscriptionPlanIds = default(List<long?>), int? year = default(int?), int? month = default(int?), long? creditCardId = default(long?), long? accountId = default(long?), long? userId = default(long?))
         {
             // to ensure "marketDataSubscriptionPlanIds" is required (not null)
             if (marketDataSubscriptionPlanIds == null)
@@ -76,7 +76,7 @@ namespace Tradovate.Services.Model
         /// Gets or Sets MarketDataSubscriptionPlanIds
         /// </summary>
         [DataMember(Name="marketDataSubscriptionPlanIds", EmitDefaultValue=false)]
-        public List<int?> MarketDataSubscriptionPlanIds { get; set; }
+        public List<long?> MarketDataSubscriptionPlanIds { get; set; }
 
         /// <summary>
         /// Gets or Sets Year

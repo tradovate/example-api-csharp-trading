@@ -719,7 +719,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contactinfoitems"></a>
 # **ContactInfoItems**
-> List<ContactInfo> ContactInfoItems (List<int?> ids)
+> List<ContactInfo> ContactInfoItems (List<long?> ids)
 
 
 
@@ -741,7 +741,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -761,7 +761,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -779,7 +779,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="contactinfoldependents"></a>
 # **ContactInfoLDependents**
-> List<ContactInfo> ContactInfoLDependents (List<int?> masterids)
+> List<ContactInfo> ContactInfoLDependents (List<long?> masterids)
 
 
 
@@ -801,7 +801,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -821,7 +821,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -1135,7 +1135,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="marketdatasubscriptionitems"></a>
 # **MarketDataSubscriptionItems**
-> List<MarketDataSubscription> MarketDataSubscriptionItems (List<int?> ids)
+> List<MarketDataSubscription> MarketDataSubscriptionItems (List<long?> ids)
 
 
 
@@ -1157,7 +1157,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1177,7 +1177,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -1195,7 +1195,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="marketdatasubscriptionldependents"></a>
 # **MarketDataSubscriptionLDependents**
-> List<MarketDataSubscription> MarketDataSubscriptionLDependents (List<int?> masterids)
+> List<MarketDataSubscription> MarketDataSubscriptionLDependents (List<long?> masterids)
 
 
 
@@ -1217,7 +1217,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -1237,7 +1237,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -1723,7 +1723,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="organizationitems"></a>
 # **OrganizationItems**
-> List<Organization> OrganizationItems (List<int?> ids)
+> List<Organization> OrganizationItems (List<long?> ids)
 
 
 
@@ -1745,7 +1745,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -1765,7 +1765,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2137,7 +2137,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="secondmarketdatasubscriptionitems"></a>
 # **SecondMarketDataSubscriptionItems**
-> List<SecondMarketDataSubscription> SecondMarketDataSubscriptionItems (List<int?> ids)
+> List<SecondMarketDataSubscription> SecondMarketDataSubscriptionItems (List<long?> ids)
 
 
 
@@ -2159,7 +2159,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -2179,7 +2179,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2197,7 +2197,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="secondmarketdatasubscriptionldependents"></a>
 # **SecondMarketDataSubscriptionLDependents**
-> List<SecondMarketDataSubscription> SecondMarketDataSubscriptionLDependents (List<int?> masterids)
+> List<SecondMarketDataSubscription> SecondMarketDataSubscriptionLDependents (List<long?> masterids)
 
 
 
@@ -2219,7 +2219,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -2239,7 +2239,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -2609,7 +2609,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="tradovatesubscriptionitems"></a>
 # **TradovateSubscriptionItems**
-> List<TradovateSubscription> TradovateSubscriptionItems (List<int?> ids)
+> List<TradovateSubscription> TradovateSubscriptionItems (List<long?> ids)
 
 
 
@@ -2631,7 +2631,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -2651,7 +2651,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -2669,7 +2669,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="tradovatesubscriptionldependents"></a>
 # **TradovateSubscriptionLDependents**
-> List<TradovateSubscription> TradovateSubscriptionLDependents (List<int?> masterids)
+> List<TradovateSubscription> TradovateSubscriptionLDependents (List<long?> masterids)
 
 
 
@@ -2691,7 +2691,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -2711,7 +2711,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -2965,7 +2965,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="useritems"></a>
 # **UserItems**
-> List<User> UserItems (List<int?> ids)
+> List<User> UserItems (List<long?> ids)
 
 
 
@@ -2987,7 +2987,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -3007,7 +3007,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -3261,7 +3261,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="userpluginitems"></a>
 # **UserPluginItems**
-> List<UserPlugin> UserPluginItems (List<int?> ids)
+> List<UserPlugin> UserPluginItems (List<long?> ids)
 
 
 
@@ -3283,7 +3283,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -3303,7 +3303,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -3321,7 +3321,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="userpluginldependents"></a>
 # **UserPluginLDependents**
-> List<UserPlugin> UserPluginLDependents (List<int?> masterids)
+> List<UserPlugin> UserPluginLDependents (List<long?> masterids)
 
 
 
@@ -3343,7 +3343,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -3363,7 +3363,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -3617,7 +3617,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="userpropertyitems"></a>
 # **UserPropertyItems**
-> List<UserProperty> UserPropertyItems (List<int?> ids)
+> List<UserProperty> UserPropertyItems (List<long?> ids)
 
 
 
@@ -3639,7 +3639,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -3659,7 +3659,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -3677,7 +3677,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="userpropertyldependents"></a>
 # **UserPropertyLDependents**
-> List<UserProperty> UserPropertyLDependents (List<int?> masterids)
+> List<UserProperty> UserPropertyLDependents (List<long?> masterids)
 
 
 
@@ -3699,7 +3699,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -3719,7 +3719,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 
@@ -3797,7 +3797,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="usersessionitems"></a>
 # **UserSessionItems**
-> List<UserSession> UserSessionItems (List<int?> ids)
+> List<UserSession> UserSessionItems (List<long?> ids)
 
 
 
@@ -3819,7 +3819,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -3839,7 +3839,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -3977,7 +3977,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="usersessionstatsitems"></a>
 # **UserSessionStatsItems**
-> List<UserSessionStats> UserSessionStatsItems (List<int?> ids)
+> List<UserSessionStats> UserSessionStatsItems (List<long?> ids)
 
 
 
@@ -3999,7 +3999,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -4019,7 +4019,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -4037,7 +4037,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="usersessionstatsldependents"></a>
 # **UserSessionStatsLDependents**
-> List<UserSessionStats> UserSessionStatsLDependents (List<int?> masterids)
+> List<UserSessionStats> UserSessionStatsLDependents (List<long?> masterids)
 
 
 
@@ -4059,7 +4059,7 @@ namespace Example
         {
 
             var apiInstance = new UsersApi();
-            var masterids = new List<int?>(); // List<int?> | ids of User entities
+            var masterids = new List<long?>(); // List<long?> | ids of User entities
 
             try
             {
@@ -4079,7 +4079,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **masterids** | [**List&lt;int?&gt;**](int?.md)| ids of User entities | 
+ **masterids** | [**List&lt;long?&gt;**](long?.md)| ids of User entities | 
 
 ### Return type
 

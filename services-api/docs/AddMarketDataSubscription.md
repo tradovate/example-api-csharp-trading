@@ -3,7 +3,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MarketDataSubscriptionPlanIds** | **List&lt;int?&gt;** |  | 
+**MarketDataSubscriptionPlanIds** | **List&lt;long?&gt;** |  | 
 **Year** | **int?** |  | 
 **Month** | **int?** |  | 
 **CreditCardId** | **long?** |  | [optional] 

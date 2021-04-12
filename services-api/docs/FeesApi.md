@@ -142,7 +142,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="marketdatasubscriptionexchangescopeitems"></a>
 # **MarketDataSubscriptionExchangeScopeItems**
-> List<MarketDataSubscriptionExchangeScope> MarketDataSubscriptionExchangeScopeItems (List<int?> ids)
+> List<MarketDataSubscriptionExchangeScope> MarketDataSubscriptionExchangeScopeItems (List<long?> ids)
 
 
 
@@ -164,7 +164,7 @@ namespace Example
         {
 
             var apiInstance = new FeesApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -184,7 +184,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -440,7 +440,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="marketdatasubscriptionplanitems"></a>
 # **MarketDataSubscriptionPlanItems**
-> List<MarketDataSubscriptionPlan> MarketDataSubscriptionPlanItems (List<int?> ids)
+> List<MarketDataSubscriptionPlan> MarketDataSubscriptionPlanItems (List<long?> ids)
 
 
 
@@ -462,7 +462,7 @@ namespace Example
         {
 
             var apiInstance = new FeesApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -482,7 +482,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 
@@ -738,7 +738,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 <a name="tradovatesubscriptionplanitems"></a>
 # **TradovateSubscriptionPlanItems**
-> List<TradovateSubscriptionPlan> TradovateSubscriptionPlanItems (List<int?> ids)
+> List<TradovateSubscriptionPlan> TradovateSubscriptionPlanItems (List<long?> ids)
 
 
 
@@ -760,7 +760,7 @@ namespace Example
         {
 
             var apiInstance = new FeesApi();
-            var ids = new List<int?>(); // List<int?> | 
+            var ids = new List<long?>(); // List<long?> | 
 
             try
             {
@@ -780,7 +780,7 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**List&lt;int?&gt;**](int?.md)|  | 
+ **ids** | [**List&lt;long?&gt;**](long?.md)|  | 
 
 ### Return type
 

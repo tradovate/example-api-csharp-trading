@@ -1,0 +1,6 @@
+*.jar
+*.exe
+bin
+obj
+*.user
+.vs
