@@ -8,11 +8,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tradovate.Samples", "Tradov
 		{EB412B02-5F73-4AAD-87EF-6B7B4D372D84} = {EB412B02-5F73-4AAD-87EF-6B7B4D372D84}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tradovate.MarketData.Samples", "Tradovate.MarketData.Samples\Tradovate.MarketData.Samples.csproj", "{C7791E10-8E08-4D21-A3C0-B3FFA084AB73}"
-	ProjectSection(ProjectDependencies) = postProject
-		{EB412B02-5F73-4AAD-87EF-6B7B4D372D84} = {EB412B02-5F73-4AAD-87EF-6B7B4D372D84}
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tradovate.WebSocket", "Tradovate.WebSocket\Tradovate.WebSocket.csproj", "{EB412B02-5F73-4AAD-87EF-6B7B4D372D84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8065F62B-0951-4FFE-9168-3E17B0CF229E}"
@@ -30,10 +25,6 @@ Global
 		{0BD25739-EC18-462E-AECD-7B759B536CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BD25739-EC18-462E-AECD-7B759B536CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BD25739-EC18-462E-AECD-7B759B536CE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7791E10-8E08-4D21-A3C0-B3FFA084AB73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7791E10-8E08-4D21-A3C0-B3FFA084AB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7791E10-8E08-4D21-A3C0-B3FFA084AB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7791E10-8E08-4D21-A3C0-B3FFA084AB73}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EB412B02-5F73-4AAD-87EF-6B7B4D372D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB412B02-5F73-4AAD-87EF-6B7B4D372D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB412B02-5F73-4AAD-87EF-6B7B4D372D84}.Release|Any CPU.ActiveCfg = Release|Any CPU

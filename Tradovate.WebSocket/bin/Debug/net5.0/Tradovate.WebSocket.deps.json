@@ -11,7 +11,6 @@
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "105.1.0",
           "WebSocket4Net": "0.15.2",
-          "Tradovate.MarketData.Services": "1.0.0.0",
           "Tradovate.Services": "1.0.0.0"
         },
         "runtime": {
@@ -568,14 +567,6 @@
           }
         }
       },
-      "Tradovate.MarketData.Services/1.0.0.0": {
-        "runtime": {
-          "Tradovate.MarketData.Services.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Tradovate.Services/1.0.0.0": {
         "runtime": {
           "Tradovate.Services.dll": {
@@ -1039,11 +1030,6 @@
       "sha512": "sha512-xu6NiIDP6BEwO8cgXLUdWI8teB/TxVjzMjMYE7hcP93+MpZdxzDzz1cTFxU4OWVP0NESchcQO5LkiJ/wgB03AQ==",
       "path": "websocket4net/0.15.2",
       "hashPath": "websocket4net.0.15.2.nupkg.sha512"
-    },
-    "Tradovate.MarketData.Services/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     },
     "Tradovate.Services/1.0.0.0": {
       "type": "reference",

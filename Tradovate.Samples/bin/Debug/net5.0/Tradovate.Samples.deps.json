@@ -11,7 +11,6 @@
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "105.1.0",
           "Tradovate.WebSocket": "1.0.0",
-          "Tradovate.MarketData.Services": "1.0.0.0",
           "Tradovate.Services": "1.0.0.0"
         },
         "runtime": {
@@ -578,14 +577,6 @@
           "Tradovate.WebSocket.dll": {}
         }
       },
-      "Tradovate.MarketData.Services/1.0.0.0": {
-        "runtime": {
-          "Tradovate.MarketData.Services.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Tradovate.Services/1.0.0.0": {
         "runtime": {
           "Tradovate.Services.dll": {
@@ -1052,11 +1043,6 @@
     },
     "Tradovate.WebSocket/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Tradovate.MarketData.Services/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
