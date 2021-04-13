@@ -17,7 +17,7 @@ the code, follow these steps:
 - run `sh codegen.sh`. You should see `wget` fetching the Swagger Codegen tools. Once this completes, you should see a lot of logging as the Swagger tool
 generates code.
 - Once this operation has succeeded, run `sh build-all.sh`. This should compile and link the projects into an executable. 
-- Navigate to the `/bin` (`cd bin`) folder created by the last operation. Run this command - `mono Tradovate.Samples.exe <your-tradovate-username> <your-tradovate-pass>`. Replace the angle-bracketed portions with your credentials, no brackets.
+- Navigate to the `bin` folder created by the last operation. Run this command - `mono Tradovate.Samples.exe <your-tradovate-username> <your-tradovate-pass>`. Replace the angle-bracketed portions with your credentials, no brackets.
 - You should see the program log your Authentication, send a SyncRequest and begin attempting to trade! Congratulations, you've successfully built and run the Tradovate C# sample project.
 
 ## Run This Example (Windows)
