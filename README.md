@@ -41,19 +41,15 @@ Once Tradovate.Services has been generated we need to compile it.
 - On the right hand side, you should see the solution explorer. At the top bar select 'switch between solutions and available views'.
 Switch to the generated Tradovate.Services solution. Attempt to build this file. It may succeed, however some users may experience
 an issue linking dependencies. Should this happen, simply uninstall one of the dependencies using the NuGet manager, 
-and then reinstall it. This should update the VSCommunity metadata and link the dependencies correctly.
+and then reinstall it*. This should update the VSCommunity metadata and link the dependencies correctly.
+
+> *NOTE: make sure to install the same package and version originally included with the generated code.
 
 ### 3) Compile Tradovate.Samples
-Now that we have the `Tradovate.Services.dll` file (which should be located in the `/bin` folder in Tradovate.Services) we can
-use it as a dependency for our samples project. Go to the Solution view for Tradovate.Samples. Then do the following:
-
-- Right-click the `Tradovate.WebSocket`'s Dependencies. Select "Add Project Reference...". Select Browse. Navigate
-to the `Tradovate.Services.dll` file. Check the box that lists this file in the main modal's "Browse" tab.
-- Repeat the above process for `Tradovate.Samples`, but add `Tradovate.WebSocket` as a build dependency additionally from the "Projects" tab.
-- Right-click the Tradovate.Samples solution and build it.
+Now that we have the `Tradovate.Services.dll` file (which should be located in the `/bin` folder in Tradovate.Services) we should
+simply be able to build the samples project. Right-click the Tradovate.Samples solution file and select Build.
 
 ### 4) Run it
-
 Open a command line and navigate to the /bin/Debug/net5.0 folder in Tradovate.Samples and run the executable created by the previous
 steps:
 
