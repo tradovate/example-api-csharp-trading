@@ -11,9 +11,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tradovate.WebSocket", "Tradovate.WebSocket\Tradovate.WebSocket.csproj", "{EB412B02-5F73-4AAD-87EF-6B7B4D372D84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8065F62B-0951-4FFE-9168-3E17B0CF229E}"
-	ProjectSection(SolutionItems) = preProject
-		TODO.md = TODO.md
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

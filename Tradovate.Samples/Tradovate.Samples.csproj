@@ -15,9 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Tradovate.MarketData.Services">
-      <HintPath>..\services-md-api\src\Tradovate.MarketData.Services\bin\Debug\Tradovate.MarketData.Services.dll</HintPath>
-    </Reference>
     <Reference Include="Tradovate.Services">
       <HintPath>..\services-api\src\Tradovate.Services\bin\Debug\Tradovate.Services.dll</HintPath>
     </Reference>
