@@ -1,7 +1,7 @@
 # C# Trading Example
 This example is designed to help you understand how trading using the C# language works. This is a complete project that will:
 - Grant you the authority to access the Tradovate Web Services using your Tradovate account credentials.
-- Attempt to make trades on your behalf using the Tradovate WebAPI and Real-Time WebSocket services.
+- Attempt to make trades on your behalf using the Tradovate REST API and Real-Time WebSocket service.
 
 ## Run This Example (Mac/Linux)
 Tools you'll need:
@@ -18,7 +18,7 @@ the code, follow these steps:
 generates code.
 - Once this operation has succeeded, run `sh build-all.sh`. This should compile and link the projects into an executable. 
 - Navigate to the `/bin` (`cd bin`) folder created by the last operation. Run this command - `mono Tradovate.Samples.exe <your-tradovate-username> <your-tradovate-pass>`. Replace the angle-bracketed portions with your credentials, no brackets.
-- You should see the program log your Authentication, send a SyncRequest and begin attempting to trade! Congratulations, you've successfully built and run the Tradovate C# WebAPI sample project.
+- You should see the program log your Authentication, send a SyncRequest and begin attempting to trade! Congratulations, you've successfully built and run the Tradovate C# sample project.
 
 ## Run This Example (Windows)
 Tools you'll need:
@@ -58,5 +58,5 @@ steps:
 ```
 Replace the bracketet portions with your own Tradovate credentials (with no brackets). If this is successful, you should see the 
 program log your Authentication, send a SyncRequest and begin attempting to trade! Congratulations, you've successfully built and 
-run the Tradovate C# WebAPI sample project.
+run the Tradovate C# sample project.
 
