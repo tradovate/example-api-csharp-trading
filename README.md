@@ -54,7 +54,7 @@ Open a command line and navigate to the /bin/Debug/net5.0 folder in Tradovate.Sa
 steps:
 
 ```sh
->Tradovate.Samples.exe <your-tradovate-username> <your-tradovate-pass>
+Tradovate.Samples.exe <your-tradovate-username> <your-tradovate-pass>
 ```
 Replace the bracketet portions with your own Tradovate credentials (with no brackets). If this is successful, you should see the 
 program log your Authentication, send a SyncRequest and begin attempting to trade! Congratulations, you've successfully built and 
