@@ -25,6 +25,11 @@ Tools you'll need:
 - [VSCommunity IDE](https://visualstudio.microsoft.com/vs/).
 - `wget` URL fetch service, get it [here](https://eternallybored.org/misc/wget/).
 - [Java Runtime Environment](https://www.java.com/en/download/manual.jsp).
+You also may need to add the `wget` and JRE tools to your system PATH. To do so, locate the `wget` and `java` executables on your machine and add them
+to the system path using this command:
+```
+setx /M PATH "%PATH%;C:\path\to\wget;C:\path\to\java"
+```
 
 ### 1) Generate the Code
 Once you have your tools, clone this repository locally. Before you can run this example you must first generate and build 
