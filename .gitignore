@@ -4,4 +4,6 @@ bin
 obj
 *.user
 .vs
-/services-api
+/services-api/src/Tradovate.Services.Test/
+/services-api/.travis.yml
+/services-api/packages
