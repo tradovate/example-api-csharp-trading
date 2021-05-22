@@ -90,7 +90,7 @@ namespace Example
 <a name="documentation-for-api-endpoints"></a>
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://demo-api-d.tradovate.com/v1*
+All URIs are relative to *https://demo.tradovateapi.com/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -145,6 +145,8 @@ Class | Method | HTTP request | Description
 *AlertsApi* | [**ResetAlert**](docs/AlertsApi.md#resetalert) | **POST** /alert/resetalert | 
 *AlertsApi* | [**TakeAlertSignalOwnership**](docs/AlertsApi.md#takealertsignalownership) | **POST** /adminAlertSignal/takealertsignalownership | 
 *AuthenticationApi* | [**AccessTokenRequest**](docs/AuthenticationApi.md#accesstokenrequest) | **POST** /auth/accesstokenrequest | 
+*AuthenticationApi* | [**Me**](docs/AuthenticationApi.md#me) | **GET** /auth/me | 
+*AuthenticationApi* | [**OAuthToken**](docs/AuthenticationApi.md#oauthtoken) | **POST** /auth/oauthtoken | 
 *AuthenticationApi* | [**RenewAccessToken**](docs/AuthenticationApi.md#renewaccesstoken) | **GET** /auth/renewaccesstoken | 
 *ChatApi* | [**ChatDependents**](docs/ChatApi.md#chatdependents) | **GET** /chat/deps | 
 *ChatApi* | [**ChatItem**](docs/ChatApi.md#chatitem) | **GET** /chat/item | 
@@ -350,6 +352,7 @@ Class | Method | HTTP request | Description
 *UsersApi* | [**CancelSecondMarketDataSubscription**](docs/UsersApi.md#cancelsecondmarketdatasubscription) | **POST** /user/cancelsecondmarketdatasubscription | 
 *UsersApi* | [**CancelSecondMarketDataSubscriptionRenewal**](docs/UsersApi.md#cancelsecondmarketdatasubscriptionrenewal) | **POST** /user/cancelsecondmarketdatasubscriptionrenewal | 
 *UsersApi* | [**CancelTradovateSubscription**](docs/UsersApi.md#canceltradovatesubscription) | **POST** /user/canceltradovatesubscription | 
+*UsersApi* | [**ChangePluginPermission**](docs/UsersApi.md#changepluginpermission) | **POST** /userPlugin/changepluginpermission | 
 *UsersApi* | [**ContactInfoDependents**](docs/UsersApi.md#contactinfodependents) | **GET** /contactInfo/deps | 
 *UsersApi* | [**ContactInfoItem**](docs/UsersApi.md#contactinfoitem) | **GET** /contactInfo/item | 
 *UsersApi* | [**ContactInfoItems**](docs/UsersApi.md#contactinfoitems) | **GET** /contactInfo/items | 
@@ -437,6 +440,7 @@ Class | Method | HTTP request | Description
  - [Model.CashBalance](docs/CashBalance.md)
  - [Model.CashBalanceLog](docs/CashBalanceLog.md)
  - [Model.CashBalanceSnapshot](docs/CashBalanceSnapshot.md)
+ - [Model.ChangePluginPermission](docs/ChangePluginPermission.md)
  - [Model.ChangeSpeed](docs/ChangeSpeed.md)
  - [Model.Chat](docs/Chat.md)
  - [Model.ChatMessage](docs/ChatMessage.md)
@@ -484,12 +488,16 @@ Class | Method | HTTP request | Description
  - [Model.MarketDataSubscriptionExchangeScope](docs/MarketDataSubscriptionExchangeScope.md)
  - [Model.MarketDataSubscriptionPlan](docs/MarketDataSubscriptionPlan.md)
  - [Model.MarketDataSubscriptionResponse](docs/MarketDataSubscriptionResponse.md)
+ - [Model.Me](docs/Me.md)
  - [Model.ModifyAlert](docs/ModifyAlert.md)
  - [Model.ModifyCredentials](docs/ModifyCredentials.md)
  - [Model.ModifyEmailAddress](docs/ModifyEmailAddress.md)
  - [Model.ModifyOrder](docs/ModifyOrder.md)
  - [Model.ModifyOrderStrategy](docs/ModifyOrderStrategy.md)
  - [Model.ModifyPassword](docs/ModifyPassword.md)
+ - [Model.OAuthMeResponse](docs/OAuthMeResponse.md)
+ - [Model.OAuthToken](docs/OAuthToken.md)
+ - [Model.OAuthTokenResponse](docs/OAuthTokenResponse.md)
  - [Model.OpenDemoAccount](docs/OpenDemoAccount.md)
  - [Model.OpenDemoAccountResponse](docs/OpenDemoAccountResponse.md)
  - [Model.Order](docs/Order.md)

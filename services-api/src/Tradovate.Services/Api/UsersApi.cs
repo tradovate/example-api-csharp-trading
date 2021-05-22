@@ -216,6 +216,27 @@ namespace Tradovate.Services.Api
         /// 
         /// </summary>
         /// <remarks>
+        /// 
+        /// </remarks>
+        /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="body"></param>
+        /// <returns>SimpleResponse</returns>
+        SimpleResponse ChangePluginPermission (ChangePluginPermission body);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="body"></param>
+        /// <returns>ApiResponse of SimpleResponse</returns>
+        ApiResponse<SimpleResponse> ChangePluginPermissionWithHttpInfo (ChangePluginPermission body);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <remarks>
         /// Retrieves all entities of ContactInfo type related to User entity
         /// </remarks>
         /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
@@ -1674,6 +1695,27 @@ namespace Tradovate.Services.Api
         /// <param name="body"></param>
         /// <returns>Task of ApiResponse (TradovateSubscriptionResponse)</returns>
         System.Threading.Tasks.Task<ApiResponse<TradovateSubscriptionResponse>> CancelTradovateSubscriptionAsyncWithHttpInfo (CancelTradovateSubscription body);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="body"></param>
+        /// <returns>Task of SimpleResponse</returns>
+        System.Threading.Tasks.Task<SimpleResponse> ChangePluginPermissionAsync (ChangePluginPermission body);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="body"></param>
+        /// <returns>Task of ApiResponse (SimpleResponse)</returns>
+        System.Threading.Tasks.Task<ApiResponse<SimpleResponse>> ChangePluginPermissionAsyncWithHttpInfo (ChangePluginPermission body);
         /// <summary>
         /// 
         /// </summary>
@@ -4485,6 +4527,165 @@ namespace Tradovate.Services.Api
             return new ApiResponse<TradovateSubscriptionResponse>(localVarStatusCode,
                 localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
                 (TradovateSubscriptionResponse) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(TradovateSubscriptionResponse)));
+        }
+
+        /// <summary>
+        ///  
+        /// </summary>
+        /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="body"></param>
+        /// <returns>SimpleResponse</returns>
+        public SimpleResponse ChangePluginPermission (ChangePluginPermission body)
+        {
+             ApiResponse<SimpleResponse> localVarResponse = ChangePluginPermissionWithHttpInfo(body);
+             return localVarResponse.Data;
+        }
+
+        /// <summary>
+        ///  
+        /// </summary>
+        /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="body"></param>
+        /// <returns>ApiResponse of SimpleResponse</returns>
+        public ApiResponse< SimpleResponse > ChangePluginPermissionWithHttpInfo (ChangePluginPermission body)
+        {
+            // verify the required parameter 'body' is set
+            if (body == null)
+                throw new ApiException(400, "Missing required parameter 'body' when calling UsersApi->ChangePluginPermission");
+
+            var localVarPath = "/userPlugin/changepluginpermission";
+            var localVarPathParams = new Dictionary<String, String>();
+            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+            var localVarHeaderParams = new Dictionary<String, String>(this.Configuration.DefaultHeader);
+            var localVarFormParams = new Dictionary<String, String>();
+            var localVarFileParams = new Dictionary<String, FileParameter>();
+            Object localVarPostBody = null;
+
+            // to determine the Content-Type header
+            String[] localVarHttpContentTypes = new String[] {
+                "application/json"
+            };
+            String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+
+            // to determine the Accept header
+            String[] localVarHttpHeaderAccepts = new String[] {
+                "application/json"
+            };
+            String localVarHttpHeaderAccept = this.Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+            if (localVarHttpHeaderAccept != null)
+                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+
+            if (body != null && body.GetType() != typeof(byte[]))
+            {
+                localVarPostBody = this.Configuration.ApiClient.Serialize(body); // http body (model) parameter
+            }
+            else
+            {
+                localVarPostBody = body; // byte array
+            }
+            // authentication (bearer_access_token) required
+            // bearer required
+            if (!String.IsNullOrEmpty(this.Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + this.Configuration.AccessToken;
+            }
+
+            // make the HTTP request
+            IRestResponse localVarResponse = (IRestResponse) this.Configuration.ApiClient.CallApi(localVarPath,
+                Method.POST, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+                localVarPathParams, localVarHttpContentType);
+
+            int localVarStatusCode = (int) localVarResponse.StatusCode;
+
+            if (ExceptionFactory != null)
+            {
+                Exception exception = ExceptionFactory("ChangePluginPermission", localVarResponse);
+                if (exception != null) throw exception;
+            }
+
+            return new ApiResponse<SimpleResponse>(localVarStatusCode,
+                localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
+                (SimpleResponse) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(SimpleResponse)));
+        }
+
+        /// <summary>
+        ///  
+        /// </summary>
+        /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="body"></param>
+        /// <returns>Task of SimpleResponse</returns>
+        public async System.Threading.Tasks.Task<SimpleResponse> ChangePluginPermissionAsync (ChangePluginPermission body)
+        {
+             ApiResponse<SimpleResponse> localVarResponse = await ChangePluginPermissionAsyncWithHttpInfo(body);
+             return localVarResponse.Data;
+
+        }
+
+        /// <summary>
+        ///  
+        /// </summary>
+        /// <exception cref="Tradovate.Services.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="body"></param>
+        /// <returns>Task of ApiResponse (SimpleResponse)</returns>
+        public async System.Threading.Tasks.Task<ApiResponse<SimpleResponse>> ChangePluginPermissionAsyncWithHttpInfo (ChangePluginPermission body)
+        {
+            // verify the required parameter 'body' is set
+            if (body == null)
+                throw new ApiException(400, "Missing required parameter 'body' when calling UsersApi->ChangePluginPermission");
+
+            var localVarPath = "/userPlugin/changepluginpermission";
+            var localVarPathParams = new Dictionary<String, String>();
+            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+            var localVarHeaderParams = new Dictionary<String, String>(this.Configuration.DefaultHeader);
+            var localVarFormParams = new Dictionary<String, String>();
+            var localVarFileParams = new Dictionary<String, FileParameter>();
+            Object localVarPostBody = null;
+
+            // to determine the Content-Type header
+            String[] localVarHttpContentTypes = new String[] {
+                "application/json"
+            };
+            String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+
+            // to determine the Accept header
+            String[] localVarHttpHeaderAccepts = new String[] {
+                "application/json"
+            };
+            String localVarHttpHeaderAccept = this.Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+            if (localVarHttpHeaderAccept != null)
+                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+
+            if (body != null && body.GetType() != typeof(byte[]))
+            {
+                localVarPostBody = this.Configuration.ApiClient.Serialize(body); // http body (model) parameter
+            }
+            else
+            {
+                localVarPostBody = body; // byte array
+            }
+            // authentication (bearer_access_token) required
+            // bearer required
+            if (!String.IsNullOrEmpty(this.Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + this.Configuration.AccessToken;
+            }
+
+            // make the HTTP request
+            IRestResponse localVarResponse = (IRestResponse) await this.Configuration.ApiClient.CallApiAsync(localVarPath,
+                Method.POST, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+                localVarPathParams, localVarHttpContentType);
+
+            int localVarStatusCode = (int) localVarResponse.StatusCode;
+
+            if (ExceptionFactory != null)
+            {
+                Exception exception = ExceptionFactory("ChangePluginPermission", localVarResponse);
+                if (exception != null) throw exception;
+            }
+
+            return new ApiResponse<SimpleResponse>(localVarStatusCode,
+                localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
+                (SimpleResponse) this.Configuration.ApiClient.Deserialize(localVarResponse, typeof(SimpleResponse)));
         }
 
         /// <summary>

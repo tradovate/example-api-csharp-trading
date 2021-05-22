@@ -4,7 +4,7 @@ info:
     description: Tradovate API provides an access to the complete set of robust Tradovate functionality.
     version: "1.0.0"
 servers:
-    - url: https://demo-api-d.tradovate.com/v1
+    - url: https://demo.tradovateapi.com/v1
 paths:
     /auth/accesstokenrequest:
         post:
@@ -26,6 +26,42 @@ paths:
                         application/json:
                             schema:
                                 $ref: '#/components/schemas/AccessTokenResponse'
+    /auth/me:
+        get:
+            description:
+                $ref: ./descriptions/me.md
+            operationId: me
+            security:
+                - bearer_access_token: []
+            tags:
+                - Authentication
+            responses:
+                '200':
+                    description: OAuthMeResponse
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/OAuthMeResponse'
+    /auth/oauthtoken:
+        post:
+            description:
+                $ref: ./descriptions/oAuthToken.md
+            operationId: oAuthToken
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/OAuthToken'
+            tags:
+                - Authentication
+            responses:
+                '200':
+                    description: OAuthTokenResponse
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/OAuthTokenResponse'
     /auth/renewaccesstoken:
         get:
             description:
@@ -6851,6 +6887,28 @@ paths:
                         application/json:
                             schema:
                                 $ref: '#/components/schemas/EntitlementSubscriptionResponse'
+    /userPlugin/changepluginpermission:
+        post:
+            description:
+                $ref: ./descriptions/changePluginPermission.md
+            operationId: changePluginPermission
+            security:
+                - bearer_access_token: []
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/ChangePluginPermission'
+            tags:
+                - Users
+            responses:
+                '200':
+                    description: SimpleResponse
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/SimpleResponse'
     /userPlugin/create:
         post:
             description: Creates a new entity of UserPlugin
@@ -8239,6 +8297,22 @@ components:
                 weekRealizedPnL:
                     type: number
                     format: double
+        ChangePluginPermission:
+            type: object
+            required:
+                - pluginName
+                - approval
+            properties:
+                userId:
+                    type: integer
+                    format: int64
+                    minimum: 0
+                    exclusiveMinimum: true
+                pluginName:
+                    type: string
+                    maxLength: 64
+                approval:
+                    type: boolean
         ChangeSpeed:
             type: object
             required:
@@ -9511,6 +9585,8 @@ components:
                         - UnknownError
                 marketDataSubscription:
                     $ref: '#/components/schemas/MarketDataSubscription'
+        Me:
+            type: object
         ModifyAlert:
             type: object
             required:
@@ -9676,6 +9752,74 @@ components:
                 currentPassword:
                     type: string
                     maxLength: 64
+        OAuthMeResponse:
+            type: object
+            properties:
+                errorText:
+                    type: string
+                    description: "Non-empty if the request failed"
+                    maxLength: 8192
+                userId:
+                    type: integer
+                    format: int64
+                    minimum: 0
+                    exclusiveMinimum: true
+                name:
+                    type: string
+                    maxLength: 64
+                fullName:
+                    type: string
+                    maxLength: 8192
+                email:
+                    type: string
+                    maxLength: 8192
+                emailVerified:
+                    type: boolean
+                isTrial:
+                    type: boolean
+        OAuthToken:
+            type: object
+            required:
+                - grant_type
+                - code
+                - redirect_uri
+            properties:
+                grant_type:
+                    type: string
+                    maxLength: 64
+                code:
+                    type: string
+                    maxLength: 8192
+                redirect_uri:
+                    type: string
+                    maxLength: 8192
+                client_id:
+                    type: string
+                    maxLength: 8192
+                client_secret:
+                    type: string
+                    maxLength: 8192
+                httpAuth:
+                    type: string
+                    maxLength: 8192
+        OAuthTokenResponse:
+            type: object
+            properties:
+                access_token:
+                    type: string
+                    maxLength: 8192
+                token_type:
+                    type: string
+                    maxLength: 64
+                expires_in:
+                    type: integer
+                    format: int32
+                error:
+                    type: string
+                    maxLength: 64
+                error_description:
+                    type: string
+                    maxLength: 8192
         OpenDemoAccount:
             type: object
             properties:

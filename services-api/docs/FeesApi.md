@@ -1,6 +1,6 @@
 # Tradovate.Services.Api.FeesApi
 
-All URIs are relative to *https://demo-api-d.tradovate.com/v1*
+All URIs are relative to *https://demo.tradovateapi.com/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

@@ -114,7 +114,7 @@ namespace Tradovate.Services.Client
         public Configuration()
         {
             UserAgent = "Swagger-Codegen/1.0.0/csharp";
-            BasePath = "https://demo-api-d.tradovate.com/v1";
+            BasePath = "https://demo.tradovateapi.com/v1";
             DefaultHeader = new ConcurrentDictionary<string, string>();
             ApiKey = new ConcurrentDictionary<string, string>();
             ApiKeyPrefix = new ConcurrentDictionary<string, string>();
@@ -130,7 +130,7 @@ namespace Tradovate.Services.Client
             IDictionary<string, string> defaultHeader,
             IDictionary<string, string> apiKey,
             IDictionary<string, string> apiKeyPrefix,
-            string basePath = "https://demo-api-d.tradovate.com/v1") : this()
+            string basePath = "https://demo.tradovateapi.com/v1") : this()
         {
             if (string.IsNullOrWhiteSpace(basePath))
                 throw new ArgumentException("The provided basePath is invalid.", "basePath");

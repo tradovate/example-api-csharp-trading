@@ -1,6 +1,6 @@
 # Tradovate.Services.Api.UsersApi
 
-All URIs are relative to *https://demo-api-d.tradovate.com/v1*
+All URIs are relative to *https://demo.tradovateapi.com/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -13,6 +13,7 @@ Method | HTTP request | Description
 [**CancelSecondMarketDataSubscription**](UsersApi.md#cancelsecondmarketdatasubscription) | **POST** /user/cancelsecondmarketdatasubscription | 
 [**CancelSecondMarketDataSubscriptionRenewal**](UsersApi.md#cancelsecondmarketdatasubscriptionrenewal) | **POST** /user/cancelsecondmarketdatasubscriptionrenewal | 
 [**CancelTradovateSubscription**](UsersApi.md#canceltradovatesubscription) | **POST** /user/canceltradovatesubscription | 
+[**ChangePluginPermission**](UsersApi.md#changepluginpermission) | **POST** /userPlugin/changepluginpermission | 
 [**ContactInfoDependents**](UsersApi.md#contactinfodependents) | **GET** /contactInfo/deps | 
 [**ContactInfoItem**](UsersApi.md#contactinfoitem) | **GET** /contactInfo/item | 
 [**ContactInfoItems**](UsersApi.md#contactinfoitems) | **GET** /contactInfo/items | 
@@ -586,6 +587,64 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**TradovateSubscriptionResponse**](TradovateSubscriptionResponse.md)
+
+### Authorization
+
+[bearer_access_token](../README.md#bearer_access_token)
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+<a name="changepluginpermission"></a>
+# **ChangePluginPermission**
+> SimpleResponse ChangePluginPermission (ChangePluginPermission body)
+
+
+
+### Example
+```csharp
+using System;
+using System.Diagnostics;
+using Tradovate.Services.Api;
+using Tradovate.Services.Client;
+using Tradovate.Services.Model;
+
+namespace Example
+{
+    public class ChangePluginPermissionExample
+    {
+        public void main()
+        {
+
+            var apiInstance = new UsersApi();
+            var body = new ChangePluginPermission(); // ChangePluginPermission | 
+
+            try
+            {
+                SimpleResponse result = apiInstance.ChangePluginPermission(body);
+                Debug.WriteLine(result);
+            }
+            catch (Exception e)
+            {
+                Debug.Print("Exception when calling UsersApi.ChangePluginPermission: " + e.Message );
+            }
+        }
+    }
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **body** | [**ChangePluginPermission**](ChangePluginPermission.md)|  | 
+
+### Return type
+
+[**SimpleResponse**](SimpleResponse.md)
 
 ### Authorization
 
